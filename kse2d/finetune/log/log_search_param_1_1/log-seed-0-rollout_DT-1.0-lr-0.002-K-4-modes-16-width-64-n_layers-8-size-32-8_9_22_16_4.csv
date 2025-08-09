@@ -1,0 +1,1239 @@
+--------args----------
+model_path: ../distillation/model/net-seed-0-K-4-modes-16-width-64-n_layers-8-size-32-8_9_21_33_43.pt
+data_path: ../data/
+file_name: search_param_1_1
+data_name: _1_1
+device: cuda:0
+seed: 0
+modes: 16
+width: 64
+n_layers: 8
+size: 32
+model_name: net-seed-0-K-4-modes-16-width-64-n_layers-8-size-32-8_9_22_16_4
+K: 4
+batch_size: 10
+rollout_DT: 1.0
+lr: 0.002
+weight_decay: 0.0
+num_iterations: 1000
+num_train: 2
+--------args----------
+
+ params: 8.811 M
+torch.Size([2, 32, 32, 51])
+torch.Size([10, 32, 32, 51])
+torch.Size([2, 32, 32, 51])
+-----------START_VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.35773101449012756
+2 relative l_2 error 0.5815094709396362
+3 relative l_2 error 0.6705348491668701
+4 relative l_2 error 0.657820463180542
+5 relative l_2 error 0.5816552639007568
+Mean Relative l_2 Error 0.5698502123355865
+-----------START_TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.369666188955307
+2 relative l_2 error 0.6194273829460144
+3 relative l_2 error 0.7387660145759583
+4 relative l_2 error 0.7568194270133972
+5 relative l_2 error 0.7046297192573547
+Mean Relative l_2 Error 0.6378617465496064
+0 ########################
+training loss 0 0.5771697163581848
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.29746952652931213
+2 relative l_2 error 0.4813079237937927
+3 relative l_2 error 0.5511027574539185
+4 relative l_2 error 0.5361568331718445
+5 relative l_2 error 0.472942590713501
+Mean Relative l_2 Error 0.46779592633247374
+-----------TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.3090371787548065
+2 relative l_2 error 0.5170373916625977
+3 relative l_2 error 0.6142533421516418
+4 relative l_2 error 0.6248887777328491
+5 relative l_2 error 0.5761994123458862
+Mean Relative l_2 Error 0.5282832205295562
+-----------SAVING NEW MODEL-----------
+10 ########################
+training loss 10 0.19557306170463562
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.06750452518463135
+2 relative l_2 error 0.09948787093162537
+3 relative l_2 error 0.13488651812076569
+4 relative l_2 error 0.1685517579317093
+5 relative l_2 error 0.19789710640907288
+Mean Relative l_2 Error 0.1336655557155609
+-----------TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.06862453371286392
+2 relative l_2 error 0.09617256373167038
+3 relative l_2 error 0.12628577649593353
+4 relative l_2 error 0.15488174557685852
+5 relative l_2 error 0.18210600316524506
+Mean Relative l_2 Error 0.12561412453651427
+-----------SAVING NEW MODEL-----------
+20 ########################
+training loss 20 0.11652104556560516
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.07732629776000977
+2 relative l_2 error 0.11037583649158478
+3 relative l_2 error 0.11891095340251923
+4 relative l_2 error 0.1107548177242279
+5 relative l_2 error 0.10291144251823425
+Mean Relative l_2 Error 0.10405586957931519
+-----------TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.08612407743930817
+2 relative l_2 error 0.13233336806297302
+3 relative l_2 error 0.15309782326221466
+4 relative l_2 error 0.1522398442029953
+5 relative l_2 error 0.14201119542121887
+Mean Relative l_2 Error 0.133161261677742
+-----------SAVING NEW MODEL-----------
+30 ########################
+training loss 30 0.13853280246257782
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.04574510082602501
+2 relative l_2 error 0.0682496577501297
+3 relative l_2 error 0.10351663082838058
+4 relative l_2 error 0.14937490224838257
+5 relative l_2 error 0.2037433385848999
+Mean Relative l_2 Error 0.11412592604756355
+40 ########################
+training loss 40 0.07791611552238464
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.06000061333179474
+2 relative l_2 error 0.07597080618143082
+3 relative l_2 error 0.09157925844192505
+4 relative l_2 error 0.09387488663196564
+5 relative l_2 error 0.09180508553981781
+Mean Relative l_2 Error 0.08264613002538682
+-----------TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.06473548710346222
+2 relative l_2 error 0.09216748923063278
+3 relative l_2 error 0.118538036942482
+4 relative l_2 error 0.13037516176700592
+5 relative l_2 error 0.13318337500095367
+Mean Relative l_2 Error 0.10779991000890732
+-----------SAVING NEW MODEL-----------
+50 ########################
+training loss 50 0.036592766642570496
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.04106158763170242
+2 relative l_2 error 0.04086420685052872
+3 relative l_2 error 0.05539610981941223
+4 relative l_2 error 0.07546082139015198
+5 relative l_2 error 0.10497263073921204
+Mean Relative l_2 Error 0.06355107128620148
+-----------TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.041745204478502274
+2 relative l_2 error 0.04348348453640938
+3 relative l_2 error 0.05688545107841492
+4 relative l_2 error 0.06850419193506241
+5 relative l_2 error 0.08320862054824829
+Mean Relative l_2 Error 0.058765390515327455
+-----------SAVING NEW MODEL-----------
+60 ########################
+training loss 60 0.04913025349378586
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.03491419553756714
+2 relative l_2 error 0.034334342926740646
+3 relative l_2 error 0.043721869587898254
+4 relative l_2 error 0.054780323058366776
+5 relative l_2 error 0.07173564285039902
+Mean Relative l_2 Error 0.04789727479219437
+-----------TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.037002336233854294
+2 relative l_2 error 0.04169818386435509
+3 relative l_2 error 0.05369016155600548
+4 relative l_2 error 0.06205279380083084
+5 relative l_2 error 0.07104857265949249
+Mean Relative l_2 Error 0.05309840962290764
+-----------SAVING NEW MODEL-----------
+70 ########################
+training loss 70 0.02453516237437725
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.03172972425818443
+2 relative l_2 error 0.03487340360879898
+3 relative l_2 error 0.045777641236782074
+4 relative l_2 error 0.05879092961549759
+5 relative l_2 error 0.07680905610322952
+Mean Relative l_2 Error 0.04959615096449852
+80 ########################
+training loss 80 0.029821012169122696
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.03147771209478378
+2 relative l_2 error 0.03588878735899925
+3 relative l_2 error 0.047411296516656876
+4 relative l_2 error 0.05855152755975723
+5 relative l_2 error 0.07154276221990585
+Mean Relative l_2 Error 0.0489744171500206
+90 ########################
+training loss 90 0.03019971400499344
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.030421290546655655
+2 relative l_2 error 0.03543887659907341
+3 relative l_2 error 0.04730872064828873
+4 relative l_2 error 0.05742233991622925
+5 relative l_2 error 0.06737901270389557
+Mean Relative l_2 Error 0.04759404808282852
+-----------TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.03143293038010597
+2 relative l_2 error 0.03980662301182747
+3 relative l_2 error 0.05498269945383072
+4 relative l_2 error 0.06656251102685928
+5 relative l_2 error 0.07621399313211441
+Mean Relative l_2 Error 0.053799751400947574
+-----------SAVING NEW MODEL-----------
+100 ########################
+training loss 100 0.022811662405729294
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.028348011896014214
+2 relative l_2 error 0.03166607394814491
+3 relative l_2 error 0.04205469787120819
+4 relative l_2 error 0.05185651779174805
+5 relative l_2 error 0.06152660772204399
+Mean Relative l_2 Error 0.043090381845831874
+-----------TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.028914248570799828
+2 relative l_2 error 0.03379780054092407
+3 relative l_2 error 0.04658130928874016
+4 relative l_2 error 0.057682108134031296
+5 relative l_2 error 0.06826183944940567
+Mean Relative l_2 Error 0.0470474611967802
+-----------SAVING NEW MODEL-----------
+110 ########################
+training loss 110 0.016666147857904434
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02885068766772747
+2 relative l_2 error 0.03404506295919418
+3 relative l_2 error 0.04501752927899361
+4 relative l_2 error 0.056472621858119965
+5 relative l_2 error 0.06873880326747894
+Mean Relative l_2 Error 0.046624941006302836
+120 ########################
+training loss 120 0.01654593087732792
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.027370503172278404
+2 relative l_2 error 0.03264310210943222
+3 relative l_2 error 0.042933110147714615
+4 relative l_2 error 0.053795017302036285
+5 relative l_2 error 0.06560656428337097
+Mean Relative l_2 Error 0.0444696594029665
+130 ########################
+training loss 130 0.010426600463688374
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.025284070521593094
+2 relative l_2 error 0.030038729310035706
+3 relative l_2 error 0.03971671313047409
+4 relative l_2 error 0.050002314150333405
+5 relative l_2 error 0.061699628829956055
+Mean Relative l_2 Error 0.04134829118847847
+-----------TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.025845570489764214
+2 relative l_2 error 0.03145173192024231
+3 relative l_2 error 0.04242340847849846
+4 relative l_2 error 0.05260467156767845
+5 relative l_2 error 0.06293751299381256
+Mean Relative l_2 Error 0.043052579089999196
+-----------SAVING NEW MODEL-----------
+140 ########################
+training loss 140 0.01578448712825775
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.024680647999048233
+2 relative l_2 error 0.028599707409739494
+3 relative l_2 error 0.03753722459077835
+4 relative l_2 error 0.046963319182395935
+5 relative l_2 error 0.05757006257772446
+Mean Relative l_2 Error 0.039070192351937295
+-----------TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.025781357660889626
+2 relative l_2 error 0.030819226056337357
+3 relative l_2 error 0.041274942457675934
+4 relative l_2 error 0.05126304179430008
+5 relative l_2 error 0.06161770969629288
+Mean Relative l_2 Error 0.042151255533099174
+-----------SAVING NEW MODEL-----------
+150 ########################
+training loss 150 0.011682631447911263
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.024930017068982124
+2 relative l_2 error 0.02889016829431057
+3 relative l_2 error 0.03781775385141373
+4 relative l_2 error 0.04678316414356232
+5 relative l_2 error 0.056430257856845856
+Mean Relative l_2 Error 0.03897027224302292
+-----------TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.026562964543700218
+2 relative l_2 error 0.03218816965818405
+3 relative l_2 error 0.04288984462618828
+4 relative l_2 error 0.052718210965394974
+5 relative l_2 error 0.0626676008105278
+Mean Relative l_2 Error 0.04340535812079906
+-----------SAVING NEW MODEL-----------
+160 ########################
+training loss 160 0.007493354380130768
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02433423511683941
+2 relative l_2 error 0.028638288378715515
+3 relative l_2 error 0.03785400465130806
+4 relative l_2 error 0.04747586324810982
+5 relative l_2 error 0.05783893167972565
+Mean Relative l_2 Error 0.03922826461493969
+170 ########################
+training loss 170 0.010425830259919167
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.023816239088773727
+2 relative l_2 error 0.028419919312000275
+3 relative l_2 error 0.03745238855481148
+4 relative l_2 error 0.04691220447421074
+5 relative l_2 error 0.05696353316307068
+Mean Relative l_2 Error 0.03871285691857338
+-----------TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02377784438431263
+2 relative l_2 error 0.029308632016181946
+3 relative l_2 error 0.039765775203704834
+4 relative l_2 error 0.05006730183959007
+5 relative l_2 error 0.06082618236541748
+Mean Relative l_2 Error 0.040749147161841394
+-----------SAVING NEW MODEL-----------
+180 ########################
+training loss 180 0.007217170670628548
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.023782089352607727
+2 relative l_2 error 0.028872735798358917
+3 relative l_2 error 0.03813967853784561
+4 relative l_2 error 0.04760349169373512
+5 relative l_2 error 0.057776086032390594
+Mean Relative l_2 Error 0.0392348162829876
+190 ########################
+training loss 190 0.0071477023884654045
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.022709693759679794
+2 relative l_2 error 0.02638675458729267
+3 relative l_2 error 0.03449442982673645
+4 relative l_2 error 0.04313160851597786
+5 relative l_2 error 0.05282669514417648
+Mean Relative l_2 Error 0.035909836366772654
+-----------TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02333230711519718
+2 relative l_2 error 0.029883399605751038
+3 relative l_2 error 0.04093099758028984
+4 relative l_2 error 0.05127447843551636
+5 relative l_2 error 0.061769843101501465
+Mean Relative l_2 Error 0.041438205167651176
+-----------SAVING NEW MODEL-----------
+200 ########################
+training loss 200 0.00913503672927618
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.022536274045705795
+2 relative l_2 error 0.02577252686023712
+3 relative l_2 error 0.03349246829748154
+4 relative l_2 error 0.04183196276426315
+5 relative l_2 error 0.05129202455282211
+Mean Relative l_2 Error 0.03498505130410194
+-----------TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02320217527449131
+2 relative l_2 error 0.02933403290808201
+3 relative l_2 error 0.03997499495744705
+4 relative l_2 error 0.0499441958963871
+5 relative l_2 error 0.06008840352296829
+Mean Relative l_2 Error 0.04050876051187515
+-----------SAVING NEW MODEL-----------
+210 ########################
+training loss 210 0.006284933537244797
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.022421937435865402
+2 relative l_2 error 0.026458801701664925
+3 relative l_2 error 0.034364424645900726
+4 relative l_2 error 0.042636170983314514
+5 relative l_2 error 0.051693279296159744
+Mean Relative l_2 Error 0.03551492281258106
+220 ########################
+training loss 220 0.005929018836468458
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02184276282787323
+2 relative l_2 error 0.026600023731589317
+3 relative l_2 error 0.03493775054812431
+4 relative l_2 error 0.04391292482614517
+5 relative l_2 error 0.054045990109443665
+Mean Relative l_2 Error 0.03626789040863514
+230 ########################
+training loss 230 0.006804254371672869
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.021611947566270828
+2 relative l_2 error 0.026214636862277985
+3 relative l_2 error 0.034256190061569214
+4 relative l_2 error 0.04275231063365936
+5 relative l_2 error 0.05197763442993164
+Mean Relative l_2 Error 0.035362543910741805
+240 ########################
+training loss 240 0.013261297717690468
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.021494224667549133
+2 relative l_2 error 0.02636583149433136
+3 relative l_2 error 0.03418570011854172
+4 relative l_2 error 0.041573844850063324
+5 relative l_2 error 0.04939872771501541
+Mean Relative l_2 Error 0.03460366576910019
+-----------TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.022988932207226753
+2 relative l_2 error 0.03251432999968529
+3 relative l_2 error 0.044683750718832016
+4 relative l_2 error 0.05547067150473595
+5 relative l_2 error 0.06602597236633301
+Mean Relative l_2 Error 0.0443367313593626
+-----------SAVING NEW MODEL-----------
+250 ########################
+training loss 250 0.00702608423307538
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02390029840171337
+2 relative l_2 error 0.03023741953074932
+3 relative l_2 error 0.03890988603234291
+4 relative l_2 error 0.048551153391599655
+5 relative l_2 error 0.05912849307060242
+Mean Relative l_2 Error 0.04014545008540153
+260 ########################
+training loss 260 0.007569237612187862
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02123493328690529
+2 relative l_2 error 0.02618326246738434
+3 relative l_2 error 0.03400410711765289
+4 relative l_2 error 0.042220789939165115
+5 relative l_2 error 0.05161047726869583
+Mean Relative l_2 Error 0.035050714015960695
+270 ########################
+training loss 270 0.008534318767488003
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.021928440779447556
+2 relative l_2 error 0.026708127930760384
+3 relative l_2 error 0.034623898565769196
+4 relative l_2 error 0.04394230619072914
+5 relative l_2 error 0.055225618183612823
+Mean Relative l_2 Error 0.03648567833006382
+280 ########################
+training loss 280 0.00845163781195879
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.022484872490167618
+2 relative l_2 error 0.0279591865837574
+3 relative l_2 error 0.03563961386680603
+4 relative l_2 error 0.043253324925899506
+5 relative l_2 error 0.052546679973602295
+Mean Relative l_2 Error 0.03637673556804657
+290 ########################
+training loss 290 0.01145174540579319
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02174345590174198
+2 relative l_2 error 0.025435153394937515
+3 relative l_2 error 0.03301795572042465
+4 relative l_2 error 0.041528038680553436
+5 relative l_2 error 0.051267873495817184
+Mean Relative l_2 Error 0.034598495438694955
+-----------TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.022698456421494484
+2 relative l_2 error 0.02799336425960064
+3 relative l_2 error 0.037222765386104584
+4 relative l_2 error 0.04640999436378479
+5 relative l_2 error 0.056334055960178375
+Mean Relative l_2 Error 0.03813172727823257
+-----------SAVING NEW MODEL-----------
+300 ########################
+training loss 300 0.006824081763625145
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.021587997674942017
+2 relative l_2 error 0.025183625519275665
+3 relative l_2 error 0.03217079117894173
+4 relative l_2 error 0.03982354700565338
+5 relative l_2 error 0.04808070510625839
+Mean Relative l_2 Error 0.033369333297014234
+-----------TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.021527772769331932
+2 relative l_2 error 0.02597220242023468
+3 relative l_2 error 0.03480634465813637
+4 relative l_2 error 0.04417995363473892
+5 relative l_2 error 0.05460289120674133
+Mean Relative l_2 Error 0.03621783293783665
+-----------SAVING NEW MODEL-----------
+310 ########################
+training loss 310 0.005368473939597607
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.021823570132255554
+2 relative l_2 error 0.025713123381137848
+3 relative l_2 error 0.033179476857185364
+4 relative l_2 error 0.04172240197658539
+5 relative l_2 error 0.05134991928935051
+Mean Relative l_2 Error 0.03475769832730293
+320 ########################
+training loss 320 0.007384179159998894
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.021173186600208282
+2 relative l_2 error 0.025401517748832703
+3 relative l_2 error 0.033025532960891724
+4 relative l_2 error 0.041676491498947144
+5 relative l_2 error 0.05169690400362015
+Mean Relative l_2 Error 0.0345947265625
+330 ########################
+training loss 330 0.004905699286609888
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.021729331463575363
+2 relative l_2 error 0.026271812617778778
+3 relative l_2 error 0.03402968496084213
+4 relative l_2 error 0.042693909257650375
+5 relative l_2 error 0.0521765761077404
+Mean Relative l_2 Error 0.03538026288151741
+340 ########################
+training loss 340 0.005038116127252579
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.021010231226682663
+2 relative l_2 error 0.02535274438560009
+3 relative l_2 error 0.03293256089091301
+4 relative l_2 error 0.041258662939071655
+5 relative l_2 error 0.05042736977338791
+Mean Relative l_2 Error 0.034196313843131064
+350 ########################
+training loss 350 0.0050138626247644424
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020415551960468292
+2 relative l_2 error 0.02458786405622959
+3 relative l_2 error 0.031742434948682785
+4 relative l_2 error 0.039313286542892456
+5 relative l_2 error 0.04785801097750664
+Mean Relative l_2 Error 0.032783429697155954
+-----------TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.021268237382173538
+2 relative l_2 error 0.029210835695266724
+3 relative l_2 error 0.03996004909276962
+4 relative l_2 error 0.05000999569892883
+5 relative l_2 error 0.060250092297792435
+Mean Relative l_2 Error 0.04013984203338623
+-----------SAVING NEW MODEL-----------
+360 ########################
+training loss 360 0.0095656244084239
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020325204357504845
+2 relative l_2 error 0.024694189429283142
+3 relative l_2 error 0.03225503861904144
+4 relative l_2 error 0.04092457517981529
+5 relative l_2 error 0.0514182522892952
+Mean Relative l_2 Error 0.033923451974987986
+370 ########################
+training loss 370 0.01040828786790371
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02136431820690632
+2 relative l_2 error 0.025720957666635513
+3 relative l_2 error 0.03334938734769821
+4 relative l_2 error 0.04204481840133667
+5 relative l_2 error 0.05194585770368576
+Mean Relative l_2 Error 0.03488506786525249
+380 ########################
+training loss 380 0.004715857561677694
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.021298721432685852
+2 relative l_2 error 0.02577003464102745
+3 relative l_2 error 0.03351737558841705
+4 relative l_2 error 0.042493343353271484
+5 relative l_2 error 0.05297465994954109
+Mean Relative l_2 Error 0.03521082699298859
+390 ########################
+training loss 390 0.0053062099032104015
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.021080244332551956
+2 relative l_2 error 0.025282947346568108
+3 relative l_2 error 0.03228253126144409
+4 relative l_2 error 0.03984219580888748
+5 relative l_2 error 0.048025257885456085
+Mean Relative l_2 Error 0.03330263532698154
+400 ########################
+training loss 400 0.00486284215003252
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020799413323402405
+2 relative l_2 error 0.025152821093797684
+3 relative l_2 error 0.0328177884221077
+4 relative l_2 error 0.041695475578308105
+5 relative l_2 error 0.052234746515750885
+Mean Relative l_2 Error 0.03454004898667336
+410 ########################
+training loss 410 0.003799560945481062
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020816626027226448
+2 relative l_2 error 0.0247244480997324
+3 relative l_2 error 0.03173588961362839
+4 relative l_2 error 0.03967537730932236
+5 relative l_2 error 0.04868795722723007
+Mean Relative l_2 Error 0.033128059655427936
+420 ########################
+training loss 420 0.006440171971917152
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02058074250817299
+2 relative l_2 error 0.024889595806598663
+3 relative l_2 error 0.03219788521528244
+4 relative l_2 error 0.04050357639789581
+5 relative l_2 error 0.05001828819513321
+Mean Relative l_2 Error 0.03363801762461662
+430 ########################
+training loss 430 0.007985291071236134
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02038157545030117
+2 relative l_2 error 0.024861078709363937
+3 relative l_2 error 0.03234792500734329
+4 relative l_2 error 0.040679413825273514
+5 relative l_2 error 0.050250839442014694
+Mean Relative l_2 Error 0.033704166486859324
+440 ########################
+training loss 440 0.004037271719425917
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02043048106133938
+2 relative l_2 error 0.024483870714902878
+3 relative l_2 error 0.031752169132232666
+4 relative l_2 error 0.03962751105427742
+5 relative l_2 error 0.04834554344415665
+Mean Relative l_2 Error 0.0329279150813818
+450 ########################
+training loss 450 0.0066069345921278
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020556382834911346
+2 relative l_2 error 0.02487318590283394
+3 relative l_2 error 0.032236963510513306
+4 relative l_2 error 0.04042094945907593
+5 relative l_2 error 0.04972420632839203
+Mean Relative l_2 Error 0.03356233760714531
+460 ########################
+training loss 460 0.008055349811911583
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020650653168559074
+2 relative l_2 error 0.023800969123840332
+3 relative l_2 error 0.030423235148191452
+4 relative l_2 error 0.03733905404806137
+5 relative l_2 error 0.04467262327671051
+Mean Relative l_2 Error 0.031377306953072545
+-----------TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.021329015493392944
+2 relative l_2 error 0.027628112584352493
+3 relative l_2 error 0.03777570277452469
+4 relative l_2 error 0.04817309230566025
+5 relative l_2 error 0.05954347923398018
+Mean Relative l_2 Error 0.03888988047838211
+-----------SAVING NEW MODEL-----------
+470 ########################
+training loss 470 0.009328852407634258
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020382026210427284
+2 relative l_2 error 0.023558352142572403
+3 relative l_2 error 0.02997627481818199
+4 relative l_2 error 0.037272848188877106
+5 relative l_2 error 0.04542678967118263
+Mean Relative l_2 Error 0.03132325820624828
+-----------TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020226746797561646
+2 relative l_2 error 0.025506043806672096
+3 relative l_2 error 0.03473592922091484
+4 relative l_2 error 0.044603437185287476
+5 relative l_2 error 0.05560469627380371
+Mean Relative l_2 Error 0.03613537065684795
+-----------SAVING NEW MODEL-----------
+480 ########################
+training loss 480 0.007688279263675213
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02065465971827507
+2 relative l_2 error 0.02428114041686058
+3 relative l_2 error 0.030896618962287903
+4 relative l_2 error 0.038424115628004074
+5 relative l_2 error 0.04703425243496895
+Mean Relative l_2 Error 0.03225815743207931
+490 ########################
+training loss 490 0.008535962551832199
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020357510074973106
+2 relative l_2 error 0.024601668119430542
+3 relative l_2 error 0.032055411487817764
+4 relative l_2 error 0.04078490287065506
+5 relative l_2 error 0.050852492451667786
+Mean Relative l_2 Error 0.03373039700090885
+500 ########################
+training loss 500 0.008116083219647408
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020519431680440903
+2 relative l_2 error 0.025360098108649254
+3 relative l_2 error 0.032943956553936005
+4 relative l_2 error 0.04136446490883827
+5 relative l_2 error 0.051078058779239655
+Mean Relative l_2 Error 0.03425320200622082
+510 ########################
+training loss 510 0.004799456335604191
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020227840170264244
+2 relative l_2 error 0.024955110624432564
+3 relative l_2 error 0.0323263555765152
+4 relative l_2 error 0.04002534598112106
+5 relative l_2 error 0.04846745729446411
+Mean Relative l_2 Error 0.03320042192935944
+520 ########################
+training loss 520 0.005027276463806629
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.01979450136423111
+2 relative l_2 error 0.023685919120907784
+3 relative l_2 error 0.030490484088659286
+4 relative l_2 error 0.03778708726167679
+5 relative l_2 error 0.045992448925971985
+Mean Relative l_2 Error 0.03155008815228939
+530 ########################
+training loss 530 0.005568545777350664
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020072365179657936
+2 relative l_2 error 0.023985136300325394
+3 relative l_2 error 0.03080553375184536
+4 relative l_2 error 0.03855404630303383
+5 relative l_2 error 0.04751180112361908
+Mean Relative l_2 Error 0.03218577653169632
+540 ########################
+training loss 540 0.00837908498942852
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020609170198440552
+2 relative l_2 error 0.025256790220737457
+3 relative l_2 error 0.03295549005270004
+4 relative l_2 error 0.042034048587083817
+5 relative l_2 error 0.05302523821592331
+Mean Relative l_2 Error 0.034776147454977036
+550 ########################
+training loss 550 0.006280712783336639
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02045285329222679
+2 relative l_2 error 0.024955883622169495
+3 relative l_2 error 0.032065752893686295
+4 relative l_2 error 0.0400911383330822
+5 relative l_2 error 0.04917285591363907
+Mean Relative l_2 Error 0.03334769681096077
+560 ########################
+training loss 560 0.006407163571566343
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020592467859387398
+2 relative l_2 error 0.025202777236700058
+3 relative l_2 error 0.032262615859508514
+4 relative l_2 error 0.04021449387073517
+5 relative l_2 error 0.04932238906621933
+Mean Relative l_2 Error 0.033518948778510096
+570 ########################
+training loss 570 0.010726960375905037
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02003110572695732
+2 relative l_2 error 0.02439524605870247
+3 relative l_2 error 0.03141839802265167
+4 relative l_2 error 0.03924831375479698
+5 relative l_2 error 0.048094235360622406
+Mean Relative l_2 Error 0.03263745978474617
+580 ########################
+training loss 580 0.009546622633934021
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020411383360624313
+2 relative l_2 error 0.025629926472902298
+3 relative l_2 error 0.03311984986066818
+4 relative l_2 error 0.0407634899020195
+5 relative l_2 error 0.04973014071583748
+Mean Relative l_2 Error 0.03393095806241035
+590 ########################
+training loss 590 0.007858277298510075
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020360775291919708
+2 relative l_2 error 0.02519691362977028
+3 relative l_2 error 0.032748155295848846
+4 relative l_2 error 0.041246283799409866
+5 relative l_2 error 0.05131007730960846
+Mean Relative l_2 Error 0.034172441065311435
+600 ########################
+training loss 600 0.004365177825093269
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.019993610680103302
+2 relative l_2 error 0.024251524358987808
+3 relative l_2 error 0.031306661665439606
+4 relative l_2 error 0.03908231481909752
+5 relative l_2 error 0.048140961676836014
+Mean Relative l_2 Error 0.03255501464009285
+610 ########################
+training loss 610 0.006318189203739166
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020430024713277817
+2 relative l_2 error 0.024369973689317703
+3 relative l_2 error 0.031190823763608932
+4 relative l_2 error 0.03854603320360184
+5 relative l_2 error 0.047081511467695236
+Mean Relative l_2 Error 0.032323673367500305
+620 ########################
+training loss 620 0.004732620902359486
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020882368087768555
+2 relative l_2 error 0.025282561779022217
+3 relative l_2 error 0.03290298208594322
+4 relative l_2 error 0.041664477437734604
+5 relative l_2 error 0.05221068859100342
+Mean Relative l_2 Error 0.034588615596294406
+630 ########################
+training loss 630 0.004678928293287754
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020609095692634583
+2 relative l_2 error 0.02456611767411232
+3 relative l_2 error 0.03156191483139992
+4 relative l_2 error 0.038983725011348724
+5 relative l_2 error 0.047335341572761536
+Mean Relative l_2 Error 0.03261123895645142
+640 ########################
+training loss 640 0.00711055425927043
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020155563950538635
+2 relative l_2 error 0.024834303185343742
+3 relative l_2 error 0.03231808543205261
+4 relative l_2 error 0.04098781198263168
+5 relative l_2 error 0.05163237452507019
+Mean Relative l_2 Error 0.03398562781512737
+650 ########################
+training loss 650 0.008693257346749306
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020122535526752472
+2 relative l_2 error 0.0250968299806118
+3 relative l_2 error 0.0323040597140789
+4 relative l_2 error 0.0403405986726284
+5 relative l_2 error 0.05020476132631302
+Mean Relative l_2 Error 0.03361375704407692
+660 ########################
+training loss 660 0.01489623449742794
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02096506953239441
+2 relative l_2 error 0.025684526190161705
+3 relative l_2 error 0.03370165079832077
+4 relative l_2 error 0.04309834539890289
+5 relative l_2 error 0.05415346845984459
+Mean Relative l_2 Error 0.03552061207592487
+670 ########################
+training loss 670 0.0033688717521727085
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.021241990849375725
+2 relative l_2 error 0.025537295266985893
+3 relative l_2 error 0.03249478340148926
+4 relative l_2 error 0.04012390971183777
+5 relative l_2 error 0.048663217574357986
+Mean Relative l_2 Error 0.03361223936080933
+680 ########################
+training loss 680 0.006520177703350782
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.019805733114480972
+2 relative l_2 error 0.02342771738767624
+3 relative l_2 error 0.0297206100076437
+4 relative l_2 error 0.03619064390659332
+5 relative l_2 error 0.043387725949287415
+Mean Relative l_2 Error 0.03050648607313633
+-----------TEST_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02073192410171032
+2 relative l_2 error 0.028547687456011772
+3 relative l_2 error 0.03906547650694847
+4 relative l_2 error 0.049473006278276443
+5 relative l_2 error 0.060669999569654465
+Mean Relative l_2 Error 0.039697618782520296
+-----------SAVING NEW MODEL-----------
+690 ########################
+training loss 690 0.010657514445483685
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.022192172706127167
+2 relative l_2 error 0.02823086827993393
+3 relative l_2 error 0.0355788916349411
+4 relative l_2 error 0.042851172387599945
+5 relative l_2 error 0.0504918247461319
+Mean Relative l_2 Error 0.035868985950946806
+700 ########################
+training loss 700 0.007989691570401192
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.019896648824214935
+2 relative l_2 error 0.02352689579129219
+3 relative l_2 error 0.030331937596201897
+4 relative l_2 error 0.03748035430908203
+5 relative l_2 error 0.04527914524078369
+Mean Relative l_2 Error 0.03130299635231495
+710 ########################
+training loss 710 0.007354394998401403
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.019781246781349182
+2 relative l_2 error 0.023728488013148308
+3 relative l_2 error 0.0305173359811306
+4 relative l_2 error 0.037551604211330414
+5 relative l_2 error 0.04519297182559967
+Mean Relative l_2 Error 0.03135432936251163
+720 ########################
+training loss 720 0.009702377021312714
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02076813206076622
+2 relative l_2 error 0.024575775489211082
+3 relative l_2 error 0.030836543068289757
+4 relative l_2 error 0.037699565291404724
+5 relative l_2 error 0.045591555535793304
+Mean Relative l_2 Error 0.03189431428909302
+730 ########################
+training loss 730 0.013646748848259449
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.021744197234511375
+2 relative l_2 error 0.025866974145174026
+3 relative l_2 error 0.03279364854097366
+4 relative l_2 error 0.04021427780389786
+5 relative l_2 error 0.048272423446178436
+Mean Relative l_2 Error 0.03377830423414707
+740 ########################
+training loss 740 0.0060895648784935474
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.0208737812936306
+2 relative l_2 error 0.024715663865208626
+3 relative l_2 error 0.031704433262348175
+4 relative l_2 error 0.039432551711797714
+5 relative l_2 error 0.04827184975147247
+Mean Relative l_2 Error 0.032999655976891515
+750 ########################
+training loss 750 0.004989208187907934
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02040787786245346
+2 relative l_2 error 0.025075215846300125
+3 relative l_2 error 0.03263670206069946
+4 relative l_2 error 0.04137348383665085
+5 relative l_2 error 0.051744911819696426
+Mean Relative l_2 Error 0.034247638285160066
+760 ########################
+training loss 760 0.0049118828028440475
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020499244332313538
+2 relative l_2 error 0.02410377748310566
+3 relative l_2 error 0.030737871304154396
+4 relative l_2 error 0.03835439682006836
+5 relative l_2 error 0.04730170965194702
+Mean Relative l_2 Error 0.03219939991831779
+770 ########################
+training loss 770 0.0041120839305222034
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02002393640577793
+2 relative l_2 error 0.024819692596793175
+3 relative l_2 error 0.03216361999511719
+4 relative l_2 error 0.04064824804663658
+5 relative l_2 error 0.050894737243652344
+Mean Relative l_2 Error 0.033710046857595447
+780 ########################
+training loss 780 0.00720873661339283
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020740114152431488
+2 relative l_2 error 0.02607281133532524
+3 relative l_2 error 0.0340498723089695
+4 relative l_2 error 0.043118420988321304
+5 relative l_2 error 0.054255254566669464
+Mean Relative l_2 Error 0.0356472946703434
+790 ########################
+training loss 790 0.005346202291548252
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020617015659809113
+2 relative l_2 error 0.024886058643460274
+3 relative l_2 error 0.032277971506118774
+4 relative l_2 error 0.04051543027162552
+5 relative l_2 error 0.04983405023813248
+Mean Relative l_2 Error 0.03362610526382923
+800 ########################
+training loss 800 0.005391720682382584
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020101718604564667
+2 relative l_2 error 0.02474011853337288
+3 relative l_2 error 0.032148487865924835
+4 relative l_2 error 0.04052067548036575
+5 relative l_2 error 0.05019310861825943
+Mean Relative l_2 Error 0.033540821820497516
+810 ########################
+training loss 810 0.0030846120789647102
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020197313278913498
+2 relative l_2 error 0.024230187758803368
+3 relative l_2 error 0.03123439848423004
+4 relative l_2 error 0.039087820798158646
+5 relative l_2 error 0.04829287901520729
+Mean Relative l_2 Error 0.03260851986706257
+820 ########################
+training loss 820 0.00446188822388649
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02056926116347313
+2 relative l_2 error 0.024823777377605438
+3 relative l_2 error 0.032222893089056015
+4 relative l_2 error 0.04085911810398102
+5 relative l_2 error 0.05086388811469078
+Mean Relative l_2 Error 0.033867787569761276
+830 ########################
+training loss 830 0.008075907826423645
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.02002604678273201
+2 relative l_2 error 0.024071993306279182
+3 relative l_2 error 0.03090834617614746
+4 relative l_2 error 0.03892280533909798
+5 relative l_2 error 0.04867623373866081
+Mean Relative l_2 Error 0.03252108506858349
+840 ########################
+training loss 840 0.003911636769771576
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020385432988405228
+2 relative l_2 error 0.02457473799586296
+3 relative l_2 error 0.03190964460372925
+4 relative l_2 error 0.04056917876005173
+5 relative l_2 error 0.050897084176540375
+Mean Relative l_2 Error 0.03366721570491791
+850 ########################
+training loss 850 0.0036081853322684765
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.01981852948665619
+2 relative l_2 error 0.024206146597862244
+3 relative l_2 error 0.031329575926065445
+4 relative l_2 error 0.03952278941869736
+5 relative l_2 error 0.04919084161520004
+Mean Relative l_2 Error 0.03281357660889626
+860 ########################
+training loss 860 0.005040016025304794
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020190253853797913
+2 relative l_2 error 0.024633895605802536
+3 relative l_2 error 0.03187015652656555
+4 relative l_2 error 0.04044389724731445
+5 relative l_2 error 0.05067741870880127
+Mean Relative l_2 Error 0.03356312438845634
+870 ########################
+training loss 870 0.004917809274047613
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.020212065428495407
+2 relative l_2 error 0.024188587442040443
+3 relative l_2 error 0.031036395579576492
+4 relative l_2 error 0.03888798505067825
+5 relative l_2 error 0.04813665151596069
+Mean Relative l_2 Error 0.03249233700335026
+880 ########################
+training loss 880 0.00381275312975049
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.019388146698474884
+2 relative l_2 error 0.023188438266515732
+3 relative l_2 error 0.029693348333239555
+4 relative l_2 error 0.03733960539102554
+5 relative l_2 error 0.04674644395709038
+Mean Relative l_2 Error 0.03127119652926922
+890 ########################
+training loss 890 0.006650544237345457
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.019760100170969963
+2 relative l_2 error 0.024352869018912315
+3 relative l_2 error 0.03144698590040207
+4 relative l_2 error 0.03954299911856651
+5 relative l_2 error 0.0490957573056221
+Mean Relative l_2 Error 0.03283974230289459
+900 ########################
+training loss 900 0.0032917275093495846
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.019779236987233162
+2 relative l_2 error 0.023873521015048027
+3 relative l_2 error 0.030615273863077164
+4 relative l_2 error 0.03862548992037773
+5 relative l_2 error 0.04834538698196411
+Mean Relative l_2 Error 0.03224778175354004
+910 ########################
+training loss 910 0.00388167193159461
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.019615668803453445
+2 relative l_2 error 0.023891806602478027
+3 relative l_2 error 0.030613256618380547
+4 relative l_2 error 0.03809882327914238
+5 relative l_2 error 0.04693326726555824
+Mean Relative l_2 Error 0.03183056451380253
+920 ########################
+training loss 920 0.005517569836229086
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.01958625018596649
+2 relative l_2 error 0.024104759097099304
+3 relative l_2 error 0.031209509819746017
+4 relative l_2 error 0.03931005671620369
+5 relative l_2 error 0.04889456555247307
+Mean Relative l_2 Error 0.03262102827429771
+930 ########################
+training loss 930 0.006471934728324413
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.019519628956913948
+2 relative l_2 error 0.02345689758658409
+3 relative l_2 error 0.03008546493947506
+4 relative l_2 error 0.03772612661123276
+5 relative l_2 error 0.046868614852428436
+Mean Relative l_2 Error 0.03153134658932686
+940 ########################
+training loss 940 0.004807894583791494
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.019478293135762215
+2 relative l_2 error 0.023492546752095222
+3 relative l_2 error 0.030281169340014458
+4 relative l_2 error 0.03822999447584152
+5 relative l_2 error 0.04809099808335304
+Mean Relative l_2 Error 0.031914600357413295
+950 ########################
+training loss 950 0.005910626612603664
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.019733816385269165
+2 relative l_2 error 0.023361045867204666
+3 relative l_2 error 0.029988568276166916
+4 relative l_2 error 0.03756529837846756
+5 relative l_2 error 0.046364061534404755
+Mean Relative l_2 Error 0.03140255808830261
+960 ########################
+training loss 960 0.003978211898356676
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.019479885697364807
+2 relative l_2 error 0.02372034266591072
+3 relative l_2 error 0.030571017414331436
+4 relative l_2 error 0.03837995231151581
+5 relative l_2 error 0.04764624685049057
+Mean Relative l_2 Error 0.03195948898792267
+970 ########################
+training loss 970 0.00465557724237442
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.019801679998636246
+2 relative l_2 error 0.024357065558433533
+3 relative l_2 error 0.03156328201293945
+4 relative l_2 error 0.040048010647296906
+5 relative l_2 error 0.050211064517498016
+Mean Relative l_2 Error 0.03319622054696083
+980 ########################
+training loss 980 0.0067620049230754375
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.019853895530104637
+2 relative l_2 error 0.02403862588107586
+3 relative l_2 error 0.031028563156723976
+4 relative l_2 error 0.039124995470047
+5 relative l_2 error 0.048675537109375
+Mean Relative l_2 Error 0.0325443234294653
+990 ########################
+training loss 990 0.0035088027361780405
+-----------VAL_ERROR-----------
+_________Training__________
+1 relative l_2 error 0.019734302535653114
+2 relative l_2 error 0.02400847151875496
+3 relative l_2 error 0.03068189136683941
+4 relative l_2 error 0.03805865719914436
+5 relative l_2 error 0.046843357384204865
+Mean Relative l_2 Error 0.03186533600091934
+----------------------------FINAL_RESULT-----------------------------
+_________Training__________
+1 relative l_2 error 0.02073192410171032
+2 relative l_2 error 0.028547687456011772
+3 relative l_2 error 0.03906547650694847
+4 relative l_2 error 0.049473006278276443
+5 relative l_2 error 0.060669999569654465
+Mean Relative l_2 Error 0.039697618782520296
+FINAL_TIME_8_9_22_16_4

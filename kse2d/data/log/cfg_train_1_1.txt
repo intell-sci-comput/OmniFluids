@@ -1,0 +1,19 @@
+{
+  "device": "cuda:0",
+  "mode": "train",
+  "s": 128,
+  "sub": 1,
+  "N": 10,
+  "T": 5.0,
+  "dt": 1e-05,
+  "record_ratio": 10,
+  "param1": [
+    1,
+    1
+  ],
+  "param2": [
+    1,
+    1
+  ],
+  "name": "train_1_1"
+}

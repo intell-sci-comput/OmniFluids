@@ -1,0 +1,2331 @@
+--------args----------
+data_path: ../data/
+file_name: search_param
+data_name: multi
+device: cuda:2
+seed: 0
+modes: 32
+width: 64
+n_layers: 8
+output_dim: 100
+size: 64
+model_name: net-seed-0-K-4-modes-32-width-64-n_layers-8-output_dim-100-size-64-8_9_20_37_37
+K: 4
+batch_size: 20
+val_size: 10
+loss_mode: cn
+rollout_DT: 0.2
+lr: 0.005
+weight_decay: 0.0
+num_iterations: 20000
+--------args----------
+
+ params: 17.211 M
+torch.Size([10, 64, 64, 51])
+training loss 0 44.83034133911133
+validation physics loss 0 43.92563247680664
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.4060116410255432
+2 relative l_2 error 0.551770031452179
+3 relative l_2 error 0.6706628203392029
+4 relative l_2 error 0.781241238117218
+5 relative l_2 error 0.888645589351654
+6 relative l_2 error 0.9944614768028259
+7 relative l_2 error 1.0990960597991943
+8 relative l_2 error 1.2025411128997803
+9 relative l_2 error 1.3046492338180542
+10 relative l_2 error 1.4052399396896362
+11 relative l_2 error 1.5041402578353882
+12 relative l_2 error 1.6011990308761597
+13 relative l_2 error 1.6962900161743164
+14 relative l_2 error 1.7893112897872925
+15 relative l_2 error 1.8801822662353516
+16 relative l_2 error 1.9688421487808228
+17 relative l_2 error 2.0552453994750977
+18 relative l_2 error 2.1393604278564453
+19 relative l_2 error 2.2211673259735107
+20 relative l_2 error 2.3006558418273926
+21 relative l_2 error 2.3778235912323
+22 relative l_2 error 2.4526751041412354
+23 relative l_2 error 2.5252208709716797
+24 relative l_2 error 2.5954766273498535
+25 relative l_2 error 2.663461446762085
+Mean Relative l_2 Error 1.6430148315429687
+training loss 100 19.43576431274414
+validation physics loss 100 20.252622604370117
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.36988404393196106
+2 relative l_2 error 0.498298317193985
+3 relative l_2 error 0.60564786195755
+4 relative l_2 error 0.7093674540519714
+5 relative l_2 error 0.8136071562767029
+6 relative l_2 error 0.9190813899040222
+7 relative l_2 error 1.0254886150360107
+8 relative l_2 error 1.1322664022445679
+9 relative l_2 error 1.238842248916626
+10 relative l_2 error 1.3447109460830688
+11 relative l_2 error 1.4494497776031494
+12 relative l_2 error 1.5527143478393555
+13 relative l_2 error 1.6542274951934814
+14 relative l_2 error 1.7537678480148315
+15 relative l_2 error 1.8511606454849243
+16 relative l_2 error 1.9462673664093018
+17 relative l_2 error 2.0389811992645264
+18 relative l_2 error 2.1292197704315186
+19 relative l_2 error 2.2169225215911865
+20 relative l_2 error 2.3020436763763428
+21 relative l_2 error 2.3845536708831787
+22 relative l_2 error 2.4644341468811035
+23 relative l_2 error 2.5416762828826904
+24 relative l_2 error 2.6162800788879395
+25 relative l_2 error 2.688251495361328
+Mean Relative l_2 Error 1.609885790348053
+training loss 200 11.81170654296875
+validation physics loss 200 11.320576667785645
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.5734662413597107
+2 relative l_2 error 1.1032651662826538
+3 relative l_2 error 1.6544227600097656
+4 relative l_2 error 2.2155613899230957
+5 relative l_2 error 2.7801055908203125
+6 relative l_2 error 3.3439178466796875
+7 relative l_2 error 3.9041974544525146
+8 relative l_2 error 4.458947658538818
+9 relative l_2 error 5.006689071655273
+10 relative l_2 error 5.546295166015625
+11 relative l_2 error 6.0768890380859375
+12 relative l_2 error 6.597781658172607
+13 relative l_2 error 7.108421325683594
+14 relative l_2 error 7.608367919921875
+15 relative l_2 error 8.09727668762207
+16 relative l_2 error 8.574872016906738
+17 relative l_2 error 9.040953636169434
+18 relative l_2 error 9.49537467956543
+19 relative l_2 error 9.938036918640137
+20 relative l_2 error 10.368892669677734
+21 relative l_2 error 10.787932395935059
+22 relative l_2 error 11.195178031921387
+23 relative l_2 error 11.590672492980957
+24 relative l_2 error 11.974467277526855
+25 relative l_2 error 12.346623420715332
+Mean Relative l_2 Error 6.855544340610504
+training loss 300 8.463973045349121
+validation physics loss 300 8.06094741821289
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.6359567046165466
+2 relative l_2 error 1.2824397087097168
+3 relative l_2 error 1.9519376754760742
+4 relative l_2 error 2.6311733722686768
+5 relative l_2 error 3.3130948543548584
+6 relative l_2 error 3.993273973464966
+7 relative l_2 error 4.668687343597412
+8 relative l_2 error 5.337204933166504
+9 relative l_2 error 5.997323036193848
+10 relative l_2 error 6.647988796234131
+11 relative l_2 error 7.288486480712891
+12 relative l_2 error 7.918284893035889
+13 relative l_2 error 8.536959648132324
+14 relative l_2 error 9.144108772277832
+15 relative l_2 error 9.739327430725098
+16 relative l_2 error 10.322249412536621
+17 relative l_2 error 10.892542839050293
+18 relative l_2 error 11.449917793273926
+19 relative l_2 error 11.99412727355957
+20 relative l_2 error 12.52497386932373
+21 relative l_2 error 13.042288780212402
+22 relative l_2 error 13.545928001403809
+23 relative l_2 error 14.035776138305664
+24 relative l_2 error 14.511743545532227
+25 relative l_2 error 14.973733901977539
+Mean Relative l_2 Error 8.255181167125702
+training loss 400 5.9882988929748535
+validation physics loss 400 6.632432460784912
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.5652977824211121
+2 relative l_2 error 1.1518564224243164
+3 relative l_2 error 1.7626886367797852
+4 relative l_2 error 2.386187791824341
+5 relative l_2 error 3.0165011882781982
+6 relative l_2 error 3.6500511169433594
+7 relative l_2 error 4.284416198730469
+8 relative l_2 error 4.917824745178223
+9 relative l_2 error 5.548888683319092
+10 relative l_2 error 6.176456451416016
+11 relative l_2 error 6.799582004547119
+12 relative l_2 error 7.417457103729248
+13 relative l_2 error 8.029352188110352
+14 relative l_2 error 8.634614944458008
+15 relative l_2 error 9.232686042785645
+16 relative l_2 error 9.823119163513184
+17 relative l_2 error 10.405566215515137
+18 relative l_2 error 10.979737281799316
+19 relative l_2 error 11.545294761657715
+20 relative l_2 error 12.101858139038086
+21 relative l_2 error 12.649012565612793
+22 relative l_2 error 13.186314582824707
+23 relative l_2 error 13.713236808776855
+24 relative l_2 error 14.229225158691406
+25 relative l_2 error 14.733743667602539
+Mean Relative l_2 Error 7.877638785839081
+training loss 500 6.3647260665893555
+validation physics loss 500 6.289152145385742
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.5260153412818909
+2 relative l_2 error 1.0663650035858154
+3 relative l_2 error 1.6258957386016846
+4 relative l_2 error 2.1935513019561768
+5 relative l_2 error 2.7637805938720703
+6 relative l_2 error 3.3332276344299316
+7 relative l_2 error 3.899672031402588
+8 relative l_2 error 4.461564540863037
+9 relative l_2 error 5.0178070068359375
+10 relative l_2 error 5.567590236663818
+11 relative l_2 error 6.110286235809326
+12 relative l_2 error 6.645370006561279
+13 relative l_2 error 7.172391414642334
+14 relative l_2 error 7.690959930419922
+15 relative l_2 error 8.200716972351074
+16 relative l_2 error 8.701315879821777
+17 relative l_2 error 9.192423820495605
+18 relative l_2 error 9.673744201660156
+19 relative l_2 error 10.14503002166748
+20 relative l_2 error 10.606058120727539
+21 relative l_2 error 11.056593894958496
+22 relative l_2 error 11.496382713317871
+23 relative l_2 error 11.925154685974121
+24 relative l_2 error 12.342633247375488
+25 relative l_2 error 12.748534202575684
+Mean Relative l_2 Error 6.966522591114044
+training loss 600 5.746389389038086
+validation physics loss 600 5.536083698272705
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.49581584334373474
+2 relative l_2 error 1.0097355842590332
+3 relative l_2 error 1.5347460508346558
+4 relative l_2 error 2.0619657039642334
+5 relative l_2 error 2.5878102779388428
+6 relative l_2 error 3.110640048980713
+7 relative l_2 error 3.629789113998413
+8 relative l_2 error 4.14507532119751
+9 relative l_2 error 4.6565399169921875
+10 relative l_2 error 5.164331912994385
+11 relative l_2 error 5.66867733001709
+12 relative l_2 error 6.169920444488525
+13 relative l_2 error 6.668361186981201
+14 relative l_2 error 7.164106845855713
+15 relative l_2 error 7.657081604003906
+16 relative l_2 error 8.147073745727539
+17 relative l_2 error 8.633769035339355
+18 relative l_2 error 9.116751670837402
+19 relative l_2 error 9.595610618591309
+20 relative l_2 error 10.069945335388184
+21 relative l_2 error 10.53935432434082
+22 relative l_2 error 11.003491401672363
+23 relative l_2 error 11.462038040161133
+24 relative l_2 error 11.914667129516602
+25 relative l_2 error 12.361055374145508
+Mean Relative l_2 Error 6.582734154462814
+training loss 700 6.268887042999268
+validation physics loss 700 5.813780784606934
+training loss 800 4.608978271484375
+validation physics loss 800 4.751487731933594
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.3889905512332916
+2 relative l_2 error 0.7853969931602478
+3 relative l_2 error 1.1813441514968872
+4 relative l_2 error 1.5690051317214966
+5 relative l_2 error 1.9452389478683472
+6 relative l_2 error 2.308622360229492
+7 relative l_2 error 2.658615827560425
+8 relative l_2 error 2.9952151775360107
+9 relative l_2 error 3.318699598312378
+10 relative l_2 error 3.629464864730835
+11 relative l_2 error 3.9279847145080566
+12 relative l_2 error 4.214779376983643
+13 relative l_2 error 4.490380764007568
+14 relative l_2 error 4.75531530380249
+15 relative l_2 error 5.010084629058838
+16 relative l_2 error 5.255164623260498
+17 relative l_2 error 5.491004467010498
+18 relative l_2 error 5.718022346496582
+19 relative l_2 error 5.936604976654053
+20 relative l_2 error 6.147108554840088
+21 relative l_2 error 6.349869251251221
+22 relative l_2 error 6.545196533203125
+23 relative l_2 error 6.733373165130615
+24 relative l_2 error 6.914651393890381
+25 relative l_2 error 7.089263439178467
+Mean Relative l_2 Error 4.214375885725022
+training loss 900 5.277237415313721
+validation physics loss 900 4.734489440917969
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.32903075218200684
+2 relative l_2 error 0.6586629748344421
+3 relative l_2 error 0.9840621948242188
+4 relative l_2 error 1.29804265499115
+5 relative l_2 error 1.5979536771774292
+6 relative l_2 error 1.8827279806137085
+7 relative l_2 error 2.152078628540039
+8 relative l_2 error 2.4061529636383057
+9 relative l_2 error 2.645345449447632
+10 relative l_2 error 2.8701727390289307
+11 relative l_2 error 3.081212043762207
+12 relative l_2 error 3.2790634632110596
+13 relative l_2 error 3.4643447399139404
+14 relative l_2 error 3.637690782546997
+15 relative l_2 error 3.7997257709503174
+16 relative l_2 error 3.9510486125946045
+17 relative l_2 error 4.09224271774292
+18 relative l_2 error 4.223870754241943
+19 relative l_2 error 4.346480369567871
+20 relative l_2 error 4.460597515106201
+21 relative l_2 error 4.566739082336426
+22 relative l_2 error 4.66540002822876
+23 relative l_2 error 4.757061004638672
+24 relative l_2 error 4.842187404632568
+25 relative l_2 error 4.9212236404418945
+Mean Relative l_2 Error 3.1565247178077698
+training loss 1000 4.090187072753906
+validation physics loss 1000 4.658972263336182
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.3153105676174164
+2 relative l_2 error 0.6344205737113953
+3 relative l_2 error 0.9471142888069153
+4 relative l_2 error 1.2467955350875854
+5 relative l_2 error 1.5310734510421753
+6 relative l_2 error 1.7990554571151733
+7 relative l_2 error 2.0506036281585693
+8 relative l_2 error 2.2860031127929688
+9 relative l_2 error 2.505774974822998
+10 relative l_2 error 2.7105674743652344
+11 relative l_2 error 2.9010956287384033
+12 relative l_2 error 3.0781009197235107
+13 relative l_2 error 3.2423369884490967
+14 relative l_2 error 3.394554853439331
+15 relative l_2 error 3.5354912281036377
+16 relative l_2 error 3.665860891342163
+17 relative l_2 error 3.786350965499878
+18 relative l_2 error 3.897629976272583
+19 relative l_2 error 4.000347137451172
+20 relative l_2 error 4.095128059387207
+21 relative l_2 error 4.182565212249756
+22 relative l_2 error 4.263221740722656
+23 relative l_2 error 4.337628364562988
+24 relative l_2 error 4.406285762786865
+25 relative l_2 error 4.469668865203857
+Mean Relative l_2 Error 2.9313194262981415
+training loss 1100 3.972463607788086
+validation physics loss 1100 4.065051078796387
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.24288654327392578
+2 relative l_2 error 0.48855993151664734
+3 relative l_2 error 0.7283588647842407
+4 relative l_2 error 0.9571067094802856
+5 relative l_2 error 1.17299222946167
+6 relative l_2 error 1.3754007816314697
+7 relative l_2 error 1.5642919540405273
+8 relative l_2 error 1.7399295568466187
+9 relative l_2 error 1.9027477502822876
+10 relative l_2 error 2.053283929824829
+11 relative l_2 error 2.1921379566192627
+12 relative l_2 error 2.3199517726898193
+13 relative l_2 error 2.437382459640503
+14 relative l_2 error 2.545086622238159
+15 relative l_2 error 2.6437034606933594
+16 relative l_2 error 2.7338407039642334
+17 relative l_2 error 2.8160786628723145
+18 relative l_2 error 2.890976667404175
+19 relative l_2 error 2.959071397781372
+20 relative l_2 error 3.020869016647339
+21 relative l_2 error 3.0768508911132812
+22 relative l_2 error 3.127472400665283
+23 relative l_2 error 3.173166036605835
+24 relative l_2 error 3.214344024658203
+25 relative l_2 error 3.2513999938964844
+Mean Relative l_2 Error 2.185115612745285
+training loss 1200 4.965264797210693
+validation physics loss 1200 4.65748405456543
+training loss 1300 4.921340465545654
+validation physics loss 1300 3.7935843467712402
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.17883746325969696
+2 relative l_2 error 0.3591894805431366
+3 relative l_2 error 0.5354661345481873
+4 relative l_2 error 0.703389585018158
+5 relative l_2 error 0.8615002632141113
+6 relative l_2 error 1.009304404258728
+7 relative l_2 error 1.1467732191085815
+8 relative l_2 error 1.274128794670105
+9 relative l_2 error 1.3917350769042969
+10 relative l_2 error 1.500038504600525
+11 relative l_2 error 1.5995333194732666
+12 relative l_2 error 1.6907376050949097
+13 relative l_2 error 1.774179458618164
+14 relative l_2 error 1.8503906726837158
+15 relative l_2 error 1.9198955297470093
+16 relative l_2 error 1.9832111597061157
+17 relative l_2 error 2.040844440460205
+18 relative l_2 error 2.0932891368865967
+19 relative l_2 error 2.1410279273986816
+20 relative l_2 error 2.1845290660858154
+21 relative l_2 error 2.2242491245269775
+22 relative l_2 error 2.260629653930664
+23 relative l_2 error 2.2940971851348877
+24 relative l_2 error 2.3250668048858643
+25 relative l_2 error 2.3539390563964844
+Mean Relative l_2 Error 1.5878393226861953
+training loss 1400 3.560817003250122
+validation physics loss 1400 3.517169952392578
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.20383913815021515
+2 relative l_2 error 0.40813907980918884
+3 relative l_2 error 0.6040540933609009
+4 relative l_2 error 0.7876060009002686
+5 relative l_2 error 0.9576653838157654
+6 relative l_2 error 1.1141022443771362
+7 relative l_2 error 1.2572563886642456
+8 relative l_2 error 1.3877066373825073
+9 relative l_2 error 1.5061522722244263
+10 relative l_2 error 1.6133497953414917
+11 relative l_2 error 1.7100753784179688
+12 relative l_2 error 1.7971079349517822
+13 relative l_2 error 1.875212550163269
+14 relative l_2 error 1.945135474205017
+15 relative l_2 error 2.007598638534546
+16 relative l_2 error 2.063297986984253
+17 relative l_2 error 2.1129016876220703
+18 relative l_2 error 2.1570491790771484
+19 relative l_2 error 2.1963536739349365
+20 relative l_2 error 2.2314021587371826
+21 relative l_2 error 2.2627575397491455
+22 relative l_2 error 2.2909607887268066
+23 relative l_2 error 2.316530704498291
+24 relative l_2 error 2.3399658203125
+25 relative l_2 error 2.3617451190948486
+Mean Relative l_2 Error 1.6603186267614365
+training loss 1500 3.2811806201934814
+validation physics loss 1500 3.8913662433624268
+training loss 1600 4.39085054397583
+validation physics loss 1600 3.7967896461486816
+training loss 1700 3.8450300693511963
+validation physics loss 1700 3.4922618865966797
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.16685692965984344
+2 relative l_2 error 0.33391281962394714
+3 relative l_2 error 0.49142494797706604
+4 relative l_2 error 0.6360371708869934
+5 relative l_2 error 0.7672201991081238
+6 relative l_2 error 0.8852677345275879
+7 relative l_2 error 0.9908377528190613
+8 relative l_2 error 1.0847548246383667
+9 relative l_2 error 1.1679099798202515
+10 relative l_2 error 1.2412058115005493
+11 relative l_2 error 1.3055229187011719
+12 relative l_2 error 1.3617055416107178
+13 relative l_2 error 1.4105547666549683
+14 relative l_2 error 1.4528290033340454
+15 relative l_2 error 1.4892427921295166
+16 relative l_2 error 1.5204685926437378
+17 relative l_2 error 1.5471404790878296
+18 relative l_2 error 1.5698550939559937
+19 relative l_2 error 1.5891765356063843
+20 relative l_2 error 1.605638861656189
+21 relative l_2 error 1.6197479963302612
+22 relative l_2 error 1.6319859027862549
+23 relative l_2 error 1.6428123712539673
+24 relative l_2 error 1.6526621580123901
+25 relative l_2 error 1.6619482040405273
+Mean Relative l_2 Error 1.23306877553463
+training loss 1800 3.3949759006500244
+validation physics loss 1800 2.964576005935669
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.13389424979686737
+2 relative l_2 error 0.2693221867084503
+3 relative l_2 error 0.39839980006217957
+4 relative l_2 error 0.5181012153625488
+5 relative l_2 error 0.6276902556419373
+6 relative l_2 error 0.7271791696548462
+7 relative l_2 error 0.8169264197349548
+8 relative l_2 error 0.8974632620811462
+9 relative l_2 error 0.9694024920463562
+10 relative l_2 error 1.0333892107009888
+11 relative l_2 error 1.0900723934173584
+12 relative l_2 error 1.1400892734527588
+13 relative l_2 error 1.1840578317642212
+14 relative l_2 error 1.2225706577301025
+15 relative l_2 error 1.2561928033828735
+16 relative l_2 error 1.2854626178741455
+17 relative l_2 error 1.3108928203582764
+18 relative l_2 error 1.332971453666687
+19 relative l_2 error 1.3521627187728882
+20 relative l_2 error 1.3689082860946655
+21 relative l_2 error 1.3836287260055542
+22 relative l_2 error 1.3967258930206299
+23 relative l_2 error 1.4085829257965088
+24 relative l_2 error 1.4195650815963745
+25 relative l_2 error 1.4300174713134766
+Mean Relative l_2 Error 1.038946768641472
+training loss 1900 2.923003673553467
+validation physics loss 1900 2.904263496398926
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.12728893756866455
+2 relative l_2 error 0.2562544047832489
+3 relative l_2 error 0.3793189227581024
+4 relative l_2 error 0.4934355914592743
+5 relative l_2 error 0.5978664755821228
+6 relative l_2 error 0.6926218867301941
+7 relative l_2 error 0.7780547738075256
+8 relative l_2 error 0.8546857833862305
+9 relative l_2 error 0.9231155514717102
+10 relative l_2 error 0.9839758276939392
+11 relative l_2 error 1.037903070449829
+12 relative l_2 error 1.0855231285095215
+13 relative l_2 error 1.1274422407150269
+14 relative l_2 error 1.164240837097168
+15 relative l_2 error 1.1964730024337769
+16 relative l_2 error 1.2246654033660889
+17 relative l_2 error 1.24931800365448
+18 relative l_2 error 1.2709048986434937
+19 relative l_2 error 1.2898777723312378
+20 relative l_2 error 1.3066657781600952
+21 relative l_2 error 1.321677565574646
+22 relative l_2 error 1.335304617881775
+23 relative l_2 error 1.3479200601577759
+24 relative l_2 error 1.3598802089691162
+25 relative l_2 error 1.371525764465332
+Mean Relative l_2 Error 0.991037620306015
+training loss 2000 4.9090657234191895
+validation physics loss 2000 4.8112921714782715
+training loss 2100 3.064187526702881
+validation physics loss 2100 3.455551862716675
+training loss 2200 3.2867860794067383
+validation physics loss 2200 4.620707988739014
+training loss 2300 2.8551106452941895
+validation physics loss 2300 3.2950098514556885
+training loss 2400 2.6216068267822266
+validation physics loss 2400 2.875554323196411
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.08027299493551254
+2 relative l_2 error 0.16307762265205383
+3 relative l_2 error 0.24406154453754425
+4 relative l_2 error 0.32043972611427307
+5 relative l_2 error 0.39134883880615234
+6 relative l_2 error 0.45655080676078796
+7 relative l_2 error 0.5160969495773315
+8 relative l_2 error 0.5701885223388672
+9 relative l_2 error 0.6191086769104004
+10 relative l_2 error 0.6631836891174316
+11 relative l_2 error 0.7027618288993835
+12 relative l_2 error 0.7381995320320129
+13 relative l_2 error 0.7698538303375244
+14 relative l_2 error 0.7980760931968689
+15 relative l_2 error 0.8232094645500183
+16 relative l_2 error 0.8455873727798462
+17 relative l_2 error 0.865532398223877
+18 relative l_2 error 0.8833562731742859
+19 relative l_2 error 0.8993601202964783
+20 relative l_2 error 0.9138343930244446
+21 relative l_2 error 0.9270599484443665
+22 relative l_2 error 0.9393081665039062
+23 relative l_2 error 0.9508412480354309
+24 relative l_2 error 0.9619131088256836
+25 relative l_2 error 0.972770631313324
+Mean Relative l_2 Error 0.6806397512555122
+training loss 2500 4.213802337646484
+validation physics loss 2500 3.5699338912963867
+training loss 2600 2.565340757369995
+validation physics loss 2600 3.6021766662597656
+training loss 2700 2.592909097671509
+validation physics loss 2700 4.104061126708984
+training loss 2800 2.512727975845337
+validation physics loss 2800 2.3976223468780518
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.10467338562011719
+2 relative l_2 error 0.21620824933052063
+3 relative l_2 error 0.3256290853023529
+4 relative l_2 error 0.4299597442150116
+5 relative l_2 error 0.5280691385269165
+6 relative l_2 error 0.6195168495178223
+7 relative l_2 error 0.7042036652565002
+8 relative l_2 error 0.7822189331054688
+9 relative l_2 error 0.8537620902061462
+10 relative l_2 error 0.9190976023674011
+11 relative l_2 error 0.9785280227661133
+12 relative l_2 error 1.0323768854141235
+13 relative l_2 error 1.0809776782989502
+14 relative l_2 error 1.1246662139892578
+15 relative l_2 error 1.1637762784957886
+16 relative l_2 error 1.198635458946228
+17 relative l_2 error 1.229564905166626
+18 relative l_2 error 1.2568762302398682
+19 relative l_2 error 1.2808725833892822
+20 relative l_2 error 1.3018473386764526
+21 relative l_2 error 1.3200843334197998
+22 relative l_2 error 1.3358583450317383
+23 relative l_2 error 1.3494350910186768
+24 relative l_2 error 1.3610714673995972
+25 relative l_2 error 1.3710163831710815
+Mean Relative l_2 Error 0.9547570383548737
+training loss 2900 2.2490406036376953
+validation physics loss 2900 2.460695266723633
+training loss 3000 3.7385520935058594
+validation physics loss 3000 3.976135015487671
+training loss 3100 2.2728865146636963
+validation physics loss 3100 2.2105720043182373
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.07653849571943283
+2 relative l_2 error 0.16046682000160217
+3 relative l_2 error 0.2445545494556427
+4 relative l_2 error 0.32583996653556824
+5 relative l_2 error 0.4032098948955536
+6 relative l_2 error 0.47615090012550354
+7 relative l_2 error 0.5444446206092834
+8 relative l_2 error 0.6080383658409119
+9 relative l_2 error 0.6669787764549255
+10 relative l_2 error 0.721373975276947
+11 relative l_2 error 0.7713717818260193
+12 relative l_2 error 0.8171449899673462
+13 relative l_2 error 0.8588816523551941
+14 relative l_2 error 0.8967785835266113
+15 relative l_2 error 0.9310361742973328
+16 relative l_2 error 0.9618558883666992
+17 relative l_2 error 0.9894376993179321
+18 relative l_2 error 1.0139784812927246
+19 relative l_2 error 1.0356711149215698
+20 relative l_2 error 1.054703950881958
+21 relative l_2 error 1.07125985622406
+22 relative l_2 error 1.0855162143707275
+23 relative l_2 error 1.0976451635360718
+24 relative l_2 error 1.1078133583068848
+25 relative l_2 error 1.1161819696426392
+Mean Relative l_2 Error 0.7614749297499657
+training loss 3200 4.047459125518799
+validation physics loss 3200 2.749483585357666
+training loss 3300 2.170292377471924
+validation physics loss 3300 2.3550891876220703
+training loss 3400 2.62111759185791
+validation physics loss 3400 2.376284599304199
+training loss 3500 4.285783290863037
+validation physics loss 3500 3.3066697120666504
+training loss 3600 3.4361534118652344
+validation physics loss 3600 4.864606857299805
+training loss 3700 2.8001275062561035
+validation physics loss 3700 2.51460599899292
+training loss 3800 5.050535202026367
+validation physics loss 3800 2.6700916290283203
+training loss 3900 3.276041269302368
+validation physics loss 3900 3.1855099201202393
+training loss 4000 4.9112138748168945
+validation physics loss 4000 4.286938190460205
+training loss 4100 4.282018184661865
+validation physics loss 4100 3.8960471153259277
+training loss 4200 2.7096168994903564
+validation physics loss 4200 3.3678858280181885
+training loss 4300 2.5822336673736572
+validation physics loss 4300 3.016991138458252
+training loss 4400 3.3184854984283447
+validation physics loss 4400 3.6278188228607178
+training loss 4500 2.4850375652313232
+validation physics loss 4500 2.5788638591766357
+training loss 4600 2.8213157653808594
+validation physics loss 4600 4.341641902923584
+training loss 4700 3.5533204078674316
+validation physics loss 4700 4.580571174621582
+training loss 4800 3.1851935386657715
+validation physics loss 4800 1.7212070226669312
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.08342472463846207
+2 relative l_2 error 0.1761738359928131
+3 relative l_2 error 0.27043089270591736
+4 relative l_2 error 0.3633083403110504
+5 relative l_2 error 0.4535699784755707
+6 relative l_2 error 0.540556788444519
+7 relative l_2 error 0.623904287815094
+8 relative l_2 error 0.703420877456665
+9 relative l_2 error 0.7790253758430481
+10 relative l_2 error 0.8507091403007507
+11 relative l_2 error 0.9185130000114441
+12 relative l_2 error 0.9825137257575989
+13 relative l_2 error 1.0428117513656616
+14 relative l_2 error 1.0995256900787354
+15 relative l_2 error 1.152786135673523
+16 relative l_2 error 1.2027333974838257
+17 relative l_2 error 1.249513864517212
+18 relative l_2 error 1.2932777404785156
+19 relative l_2 error 1.3341783285140991
+20 relative l_2 error 1.3723701238632202
+21 relative l_2 error 1.4080079793930054
+22 relative l_2 error 1.4412453174591064
+23 relative l_2 error 1.472235083580017
+24 relative l_2 error 1.5011281967163086
+25 relative l_2 error 1.5280745029449463
+Mean Relative l_2 Error 0.9537375631928444
+training loss 4900 3.715333938598633
+validation physics loss 4900 2.365251302719116
+training loss 5000 6.101565837860107
+validation physics loss 5000 2.846985101699829
+training loss 5100 4.789924621582031
+validation physics loss 5100 2.7988152503967285
+training loss 5200 2.053872585296631
+validation physics loss 5200 2.0344648361206055
+training loss 5300 2.8710250854492188
+validation physics loss 5300 2.4363300800323486
+training loss 5400 2.4712841510772705
+validation physics loss 5400 2.3198986053466797
+training loss 5500 2.5713086128234863
+validation physics loss 5500 2.0999011993408203
+training loss 5600 1.6445971727371216
+validation physics loss 5600 2.1203579902648926
+training loss 5700 3.4342920780181885
+validation physics loss 5700 2.1633846759796143
+training loss 5800 2.262608289718628
+validation physics loss 5800 5.146971225738525
+training loss 5900 2.5435454845428467
+validation physics loss 5900 1.6476752758026123
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.08251460641622543
+2 relative l_2 error 0.17281638085842133
+3 relative l_2 error 0.2632715106010437
+4 relative l_2 error 0.351168692111969
+5 relative l_2 error 0.4354584813117981
+6 relative l_2 error 0.5156373381614685
+7 relative l_2 error 0.5914760231971741
+8 relative l_2 error 0.6629013419151306
+9 relative l_2 error 0.7299357056617737
+10 relative l_2 error 0.7926607728004456
+11 relative l_2 error 0.8511962890625
+12 relative l_2 error 0.9056861996650696
+13 relative l_2 error 0.9562904238700867
+14 relative l_2 error 1.0031770467758179
+15 relative l_2 error 1.046519160270691
+16 relative l_2 error 1.086491584777832
+17 relative l_2 error 1.1232696771621704
+18 relative l_2 error 1.1570255756378174
+19 relative l_2 error 1.187929630279541
+20 relative l_2 error 1.2161483764648438
+21 relative l_2 error 1.241843819618225
+22 relative l_2 error 1.265173316001892
+23 relative l_2 error 1.2862895727157593
+24 relative l_2 error 1.3053399324417114
+25 relative l_2 error 1.3224672079086304
+Mean Relative l_2 Error 0.8621075466275215
+training loss 6000 2.0872645378112793
+validation physics loss 6000 2.58551287651062
+training loss 6100 1.8566620349884033
+validation physics loss 6100 2.1715545654296875
+training loss 6200 3.520341634750366
+validation physics loss 6200 2.027820348739624
+training loss 6300 2.392836809158325
+validation physics loss 6300 2.697399377822876
+training loss 6400 1.7962254285812378
+validation physics loss 6400 1.7568273544311523
+training loss 6500 2.1676323413848877
+validation physics loss 6500 1.7668720483779907
+training loss 6600 2.8311264514923096
+validation physics loss 6600 2.5812408924102783
+training loss 6700 2.4172184467315674
+validation physics loss 6700 2.246211528778076
+training loss 6800 1.5441763401031494
+validation physics loss 6800 2.0230159759521484
+training loss 6900 2.783162832260132
+validation physics loss 6900 1.7529370784759521
+training loss 7000 1.5148197412490845
+validation physics loss 7000 1.7779372930526733
+training loss 7100 2.866434097290039
+validation physics loss 7100 3.812331199645996
+training loss 7200 1.6169872283935547
+validation physics loss 7200 2.4727730751037598
+training loss 7300 2.081756591796875
+validation physics loss 7300 2.089531183242798
+training loss 7400 1.3644200563430786
+validation physics loss 7400 1.6462299823760986
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.07979100942611694
+2 relative l_2 error 0.1686251312494278
+3 relative l_2 error 0.2580034136772156
+4 relative l_2 error 0.3453911542892456
+5 relative l_2 error 0.4297177493572235
+6 relative l_2 error 0.5104455947875977
+7 relative l_2 error 0.58730548620224
+8 relative l_2 error 0.66018146276474
+9 relative l_2 error 0.7290521264076233
+10 relative l_2 error 0.7939569354057312
+11 relative l_2 error 0.854974091053009
+12 relative l_2 error 0.9122072458267212
+13 relative l_2 error 0.9657761454582214
+14 relative l_2 error 1.015811800956726
+15 relative l_2 error 1.0624502897262573
+16 relative l_2 error 1.1058316230773926
+17 relative l_2 error 1.146096110343933
+18 relative l_2 error 1.1833829879760742
+19 relative l_2 error 1.2178305387496948
+20 relative l_2 error 1.2495733499526978
+21 relative l_2 error 1.2787437438964844
+22 relative l_2 error 1.30547034740448
+23 relative l_2 error 1.3298777341842651
+24 relative l_2 error 1.3520869016647339
+25 relative l_2 error 1.3722158670425415
+Mean Relative l_2 Error 0.8765919536352158
+training loss 7500 2.058500051498413
+validation physics loss 7500 4.296028137207031
+training loss 7600 1.6830096244812012
+validation physics loss 7600 2.042099952697754
+training loss 7700 1.446940541267395
+validation physics loss 7700 1.4312063455581665
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.04610872641205788
+2 relative l_2 error 0.09725748002529144
+3 relative l_2 error 0.14984628558158875
+4 relative l_2 error 0.20170429348945618
+5 relative l_2 error 0.2520032525062561
+6 relative l_2 error 0.3003356158733368
+7 relative l_2 error 0.34649643301963806
+8 relative l_2 error 0.3903934955596924
+9 relative l_2 error 0.4320029318332672
+10 relative l_2 error 0.4713442027568817
+11 relative l_2 error 0.5084658861160278
+12 relative l_2 error 0.5434356927871704
+13 relative l_2 error 0.5763339996337891
+14 relative l_2 error 0.60724937915802
+15 relative l_2 error 0.6362759470939636
+16 relative l_2 error 0.6635106801986694
+17 relative l_2 error 0.6890520453453064
+18 relative l_2 error 0.7129996418952942
+19 relative l_2 error 0.7354528903961182
+20 relative l_2 error 0.7565109133720398
+21 relative l_2 error 0.7762705087661743
+22 relative l_2 error 0.7948271036148071
+23 relative l_2 error 0.8122742772102356
+24 relative l_2 error 0.8287033438682556
+25 relative l_2 error 0.8442035913467407
+Mean Relative l_2 Error 0.5269223447144031
+training loss 7800 2.025482654571533
+validation physics loss 7800 3.6747794151306152
+training loss 7900 1.8281033039093018
+validation physics loss 7900 2.7631847858428955
+training loss 8000 1.1504426002502441
+validation physics loss 8000 1.6401382684707642
+training loss 8100 2.3821280002593994
+validation physics loss 8100 1.2444185018539429
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.08088129758834839
+2 relative l_2 error 0.169765904545784
+3 relative l_2 error 0.2590772807598114
+4 relative l_2 error 0.3463422954082489
+5 relative l_2 error 0.43053436279296875
+6 relative l_2 error 0.5111398696899414
+7 relative l_2 error 0.5879037976264954
+8 relative l_2 error 0.6607198715209961
+9 relative l_2 error 0.7295725345611572
+10 relative l_2 error 0.7945041656494141
+11 relative l_2 error 0.8555944561958313
+12 relative l_2 error 0.9129462242126465
+13 relative l_2 error 0.9666774868965149
+14 relative l_2 error 1.0169155597686768
+15 relative l_2 error 1.0637928247451782
+16 relative l_2 error 1.1074438095092773
+17 relative l_2 error 1.1480035781860352
+18 relative l_2 error 1.185606598854065
+19 relative l_2 error 1.2203842401504517
+20 relative l_2 error 1.2524657249450684
+21 relative l_2 error 1.2819777727127075
+22 relative l_2 error 1.309043288230896
+23 relative l_2 error 1.3337820768356323
+24 relative l_2 error 1.3563107252120972
+25 relative l_2 error 1.376742959022522
+Mean Relative l_2 Error 0.8783251482248307
+training loss 8200 2.095318078994751
+validation physics loss 8200 1.0055146217346191
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.04323875531554222
+2 relative l_2 error 0.09269102662801743
+3 relative l_2 error 0.14336030185222626
+4 relative l_2 error 0.19327054917812347
+5 relative l_2 error 0.2416740506887436
+6 relative l_2 error 0.2881903350353241
+7 relative l_2 error 0.3326204717159271
+8 relative l_2 error 0.3748660683631897
+9 relative l_2 error 0.41489145159721375
+10 relative l_2 error 0.4527009427547455
+11 relative l_2 error 0.48832640051841736
+12 relative l_2 error 0.5218165516853333
+13 relative l_2 error 0.5532333254814148
+14 relative l_2 error 0.5826466679573059
+15 relative l_2 error 0.610131561756134
+16 relative l_2 error 0.6357659101486206
+17 relative l_2 error 0.6596288084983826
+18 relative l_2 error 0.6817997097969055
+19 relative l_2 error 0.7023577094078064
+20 relative l_2 error 0.7213811874389648
+21 relative l_2 error 0.738947331905365
+22 relative l_2 error 0.755132257938385
+23 relative l_2 error 0.7700108885765076
+24 relative l_2 error 0.7836563587188721
+25 relative l_2 error 0.7961404919624329
+Mean Relative l_2 Error 0.5031391645967961
+training loss 8300 1.8090524673461914
+validation physics loss 8300 1.3784630298614502
+training loss 8400 2.0282368659973145
+validation physics loss 8400 1.5800018310546875
+training loss 8500 1.1321330070495605
+validation physics loss 8500 1.5699340105056763
+training loss 8600 1.6385420560836792
+validation physics loss 8600 1.9141631126403809
+training loss 8700 1.923290729522705
+validation physics loss 8700 1.0232954025268555
+training loss 8800 2.6786091327667236
+validation physics loss 8800 2.99979305267334
+training loss 8900 1.333428978919983
+validation physics loss 8900 1.8464651107788086
+training loss 9000 2.047600030899048
+validation physics loss 9000 1.9532724618911743
+training loss 9100 1.0939671993255615
+validation physics loss 9100 1.2173998355865479
+training loss 9200 1.59478759765625
+validation physics loss 9200 1.248029112815857
+training loss 9300 2.278257369995117
+validation physics loss 9300 1.4797401428222656
+training loss 9400 1.385398507118225
+validation physics loss 9400 1.6436823606491089
+training loss 9500 0.930823564529419
+validation physics loss 9500 1.13460373878479
+training loss 9600 1.3504986763000488
+validation physics loss 9600 1.5371160507202148
+training loss 9700 1.2700049877166748
+validation physics loss 9700 1.2561575174331665
+training loss 9800 0.9986960887908936
+validation physics loss 9800 0.8900338411331177
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.0573292039334774
+2 relative l_2 error 0.12167607992887497
+3 relative l_2 error 0.18665443360805511
+4 relative l_2 error 0.2503749430179596
+5 relative l_2 error 0.31203964352607727
+6 relative l_2 error 0.3712478578090668
+7 relative l_2 error 0.4277973175048828
+8 relative l_2 error 0.4815985858440399
+9 relative l_2 error 0.5326299071311951
+10 relative l_2 error 0.580913782119751
+11 relative l_2 error 0.6265023946762085
+12 relative l_2 error 0.6694658398628235
+13 relative l_2 error 0.7098862528800964
+14 relative l_2 error 0.7478529214859009
+15 relative l_2 error 0.7834610939025879
+16 relative l_2 error 0.8168091177940369
+17 relative l_2 error 0.8479965329170227
+18 relative l_2 error 0.8771237730979919
+19 relative l_2 error 0.9042901396751404
+20 relative l_2 error 0.9295935034751892
+21 relative l_2 error 0.9531305432319641
+22 relative l_2 error 0.9749970436096191
+23 relative l_2 error 0.9952866435050964
+24 relative l_2 error 1.014091968536377
+25 relative l_2 error 1.0315035581588745
+Mean Relative l_2 Error 0.6481701232492924
+training loss 9900 2.137488842010498
+validation physics loss 9900 1.3168224096298218
+training loss 10000 1.7071220874786377
+validation physics loss 10000 2.0844640731811523
+training loss 10100 1.5922478437423706
+validation physics loss 10100 1.0496368408203125
+training loss 10200 1.297960638999939
+validation physics loss 10200 1.2367873191833496
+training loss 10300 2.134807586669922
+validation physics loss 10300 2.574463367462158
+training loss 10400 1.2427912950515747
+validation physics loss 10400 1.9620755910873413
+training loss 10500 1.7060167789459229
+validation physics loss 10500 1.2645879983901978
+training loss 10600 1.1849000453948975
+validation physics loss 10600 0.772606372833252
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.05163000896573067
+2 relative l_2 error 0.10934189707040787
+3 relative l_2 error 0.1674705296754837
+4 relative l_2 error 0.22437229752540588
+5 relative l_2 error 0.27934518456459045
+6 relative l_2 error 0.332040935754776
+7 relative l_2 error 0.38228780031204224
+8 relative l_2 error 0.430014044046402
+9 relative l_2 error 0.47520944476127625
+10 relative l_2 error 0.5179042816162109
+11 relative l_2 error 0.5581538081169128
+12 relative l_2 error 0.5960296988487244
+13 relative l_2 error 0.631614089012146
+14 relative l_2 error 0.6649959683418274
+15 relative l_2 error 0.6962688565254211
+16 relative l_2 error 0.7255287170410156
+17 relative l_2 error 0.7528722882270813
+18 relative l_2 error 0.7783970236778259
+19 relative l_2 error 0.8021997809410095
+20 relative l_2 error 0.8243762254714966
+21 relative l_2 error 0.8450214266777039
+22 relative l_2 error 0.8642292022705078
+23 relative l_2 error 0.8820910453796387
+24 relative l_2 error 0.8986965417861938
+25 relative l_2 error 0.9141342043876648
+Mean Relative l_2 Error 0.5761690120398998
+training loss 10700 1.5744891166687012
+validation physics loss 10700 1.951539397239685
+training loss 10800 1.8071568012237549
+validation physics loss 10800 1.3034005165100098
+training loss 10900 1.0477159023284912
+validation physics loss 10900 1.0208585262298584
+training loss 11000 0.9923445582389832
+validation physics loss 11000 0.8500823974609375
+training loss 11100 1.0014839172363281
+validation physics loss 11100 1.1469320058822632
+training loss 11200 1.0616191625595093
+validation physics loss 11200 0.9576520919799805
+training loss 11300 1.0766359567642212
+validation physics loss 11300 0.7577241063117981
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.051286518573760986
+2 relative l_2 error 0.10823743790388107
+3 relative l_2 error 0.16574536263942719
+4 relative l_2 error 0.2222229540348053
+5 relative l_2 error 0.27699390053749084
+6 relative l_2 error 0.3297150731086731
+7 relative l_2 error 0.3802092671394348
+8 relative l_2 error 0.42839309573173523
+9 relative l_2 error 0.4742434620857239
+10 relative l_2 error 0.5177764892578125
+11 relative l_2 error 0.5590330958366394
+12 relative l_2 error 0.5980727076530457
+13 relative l_2 error 0.6349645256996155
+14 relative l_2 error 0.6697863340377808
+15 relative l_2 error 0.702621340751648
+16 relative l_2 error 0.7335567474365234
+17 relative l_2 error 0.7626816034317017
+18 relative l_2 error 0.7900871634483337
+19 relative l_2 error 0.8158645033836365
+20 relative l_2 error 0.8401056528091431
+21 relative l_2 error 0.8629024624824524
+22 relative l_2 error 0.8843461871147156
+23 relative l_2 error 0.9045283198356628
+24 relative l_2 error 0.9235391020774841
+25 relative l_2 error 0.9414674043655396
+Mean Relative l_2 Error 0.5831352284550667
+training loss 11400 0.8106394410133362
+validation physics loss 11400 1.1651439666748047
+training loss 11500 1.2371134757995605
+validation physics loss 11500 0.7864434123039246
+training loss 11600 1.2533857822418213
+validation physics loss 11600 0.7370201349258423
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.031423527747392654
+2 relative l_2 error 0.06708027422428131
+3 relative l_2 error 0.10380624979734421
+4 relative l_2 error 0.14021757245063782
+5 relative l_2 error 0.17576013505458832
+6 relative l_2 error 0.2101493924856186
+7 relative l_2 error 0.2432323545217514
+8 relative l_2 error 0.2749309241771698
+9 relative l_2 error 0.3052133619785309
+10 relative l_2 error 0.3340778350830078
+11 relative l_2 error 0.3615419566631317
+12 relative l_2 error 0.3876376748085022
+13 relative l_2 error 0.4124062955379486
+14 relative l_2 error 0.4358963072299957
+15 relative l_2 error 0.458161324262619
+16 relative l_2 error 0.4792585074901581
+17 relative l_2 error 0.4992460310459137
+18 relative l_2 error 0.5181844234466553
+19 relative l_2 error 0.5361342430114746
+20 relative l_2 error 0.5531573295593262
+21 relative l_2 error 0.569315493106842
+22 relative l_2 error 0.5846724510192871
+23 relative l_2 error 0.5992919206619263
+24 relative l_2 error 0.6132370829582214
+25 relative l_2 error 0.6265720725059509
+Mean Relative l_2 Error 0.380824189633131
+training loss 11700 0.8569626212120056
+validation physics loss 11700 0.8785867094993591
+training loss 11800 0.9260581135749817
+validation physics loss 11800 0.7369451522827148
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.04303990676999092
+2 relative l_2 error 0.09234935790300369
+3 relative l_2 error 0.14253997802734375
+4 relative l_2 error 0.1920097917318344
+5 relative l_2 error 0.24007712304592133
+6 relative l_2 error 0.2863912582397461
+7 relative l_2 error 0.3307684063911438
+8 relative l_2 error 0.37312039732933044
+9 relative l_2 error 0.41341838240623474
+10 relative l_2 error 0.4516716003417969
+11 relative l_2 error 0.4879152774810791
+12 relative l_2 error 0.5222019553184509
+13 relative l_2 error 0.5545961260795593
+14 relative l_2 error 0.5851701498031616
+15 relative l_2 error 0.6140021681785583
+16 relative l_2 error 0.6411742568016052
+17 relative l_2 error 0.6667712926864624
+18 relative l_2 error 0.6908801794052124
+19 relative l_2 error 0.7135884165763855
+20 relative l_2 error 0.7349836230278015
+21 relative l_2 error 0.7551541328430176
+22 relative l_2 error 0.7741897702217102
+23 relative l_2 error 0.7921800017356873
+24 relative l_2 error 0.8092141151428223
+25 relative l_2 error 0.8253809809684753
+Mean Relative l_2 Error 0.5093115459382535
+training loss 11900 0.8583794236183167
+validation physics loss 11900 1.012445330619812
+training loss 12000 0.9245010018348694
+validation physics loss 12000 0.7300307750701904
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.05315427854657173
+2 relative l_2 error 0.11087401211261749
+3 relative l_2 error 0.168998122215271
+4 relative l_2 error 0.22594399750232697
+5 relative l_2 error 0.28105130791664124
+6 relative l_2 error 0.3339879512786865
+7 relative l_2 error 0.3845851421356201
+8 relative l_2 error 0.43276721239089966
+9 relative l_2 error 0.4785151481628418
+10 relative l_2 error 0.5218490958213806
+11 relative l_2 error 0.562811553478241
+12 relative l_2 error 0.6014609932899475
+13 relative l_2 error 0.6378663778305054
+14 relative l_2 error 0.6721028089523315
+15 relative l_2 error 0.7042499780654907
+16 relative l_2 error 0.7343893647193909
+17 relative l_2 error 0.7626046538352966
+18 relative l_2 error 0.7889803051948547
+19 relative l_2 error 0.8136009573936462
+20 relative l_2 error 0.8365494608879089
+21 relative l_2 error 0.8579072952270508
+22 relative l_2 error 0.8777551651000977
+23 relative l_2 error 0.8961729407310486
+24 relative l_2 error 0.9132390022277832
+25 relative l_2 error 0.9290305972099304
+Mean Relative l_2 Error 0.5832179088890552
+training loss 12100 0.7446358799934387
+validation physics loss 12100 0.6019105315208435
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.04300273582339287
+2 relative l_2 error 0.09137047827243805
+3 relative l_2 error 0.1404625028371811
+4 relative l_2 error 0.18889020383358002
+5 relative l_2 error 0.23603545129299164
+6 relative l_2 error 0.2815771996974945
+7 relative l_2 error 0.32534167170524597
+8 relative l_2 error 0.36723923683166504
+9 relative l_2 error 0.407235711812973
+10 relative l_2 error 0.44533205032348633
+11 relative l_2 error 0.48155173659324646
+12 relative l_2 error 0.51593416929245
+13 relative l_2 error 0.5485296845436096
+14 relative l_2 error 0.5793958902359009
+15 relative l_2 error 0.6085966229438782
+16 relative l_2 error 0.6361989974975586
+17 relative l_2 error 0.6622724533081055
+18 relative l_2 error 0.6868886947631836
+19 relative l_2 error 0.710120677947998
+20 relative l_2 error 0.7320424318313599
+21 relative l_2 error 0.7527276873588562
+22 relative l_2 error 0.772250235080719
+23 relative l_2 error 0.790683388710022
+24 relative l_2 error 0.8081003427505493
+25 relative l_2 error 0.8245742917060852
+Mean Relative l_2 Error 0.5054541818797589
+training loss 12200 1.0581474304199219
+validation physics loss 12200 1.0733643770217896
+training loss 12300 0.8165691494941711
+validation physics loss 12300 0.7140878438949585
+training loss 12400 0.9344385266304016
+validation physics loss 12400 0.9393622875213623
+training loss 12500 0.9872390627861023
+validation physics loss 12500 0.8026872277259827
+training loss 12600 0.9432936310768127
+validation physics loss 12600 0.6951814889907837
+training loss 12700 0.7109063863754272
+validation physics loss 12700 0.6235507726669312
+training loss 12800 0.8792343735694885
+validation physics loss 12800 0.6845168471336365
+training loss 12900 0.851235568523407
+validation physics loss 12900 0.5348988175392151
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.03455511853098869
+2 relative l_2 error 0.07393311709165573
+3 relative l_2 error 0.11426939815282822
+4 relative l_2 error 0.15434785187244415
+5 relative l_2 error 0.19361476600170135
+6 relative l_2 error 0.2317698448896408
+7 relative l_2 error 0.2686445713043213
+8 relative l_2 error 0.3041450083255768
+9 relative l_2 error 0.3382224440574646
+10 relative l_2 error 0.37085849046707153
+11 relative l_2 error 0.4020549952983856
+12 relative l_2 error 0.43182966113090515
+13 relative l_2 error 0.46021100878715515
+14 relative l_2 error 0.4872344136238098
+15 relative l_2 error 0.5129398703575134
+16 relative l_2 error 0.5373715758323669
+17 relative l_2 error 0.5605771541595459
+18 relative l_2 error 0.5826062560081482
+19 relative l_2 error 0.603510320186615
+20 relative l_2 error 0.6233416795730591
+21 relative l_2 error 0.6421543955802917
+22 relative l_2 error 0.6600028276443481
+23 relative l_2 error 0.6769410371780396
+24 relative l_2 error 0.6930227279663086
+25 relative l_2 error 0.7083012461662292
+Mean Relative l_2 Error 0.4266583912074566
+training loss 13000 0.6679750680923462
+validation physics loss 13000 0.5908254384994507
+training loss 13100 0.6668584942817688
+validation physics loss 13100 0.9303050637245178
+training loss 13200 0.7888703346252441
+validation physics loss 13200 0.9057113528251648
+training loss 13300 0.9066153764724731
+validation physics loss 13300 0.8092904686927795
+training loss 13400 0.7192662358283997
+validation physics loss 13400 0.6088653206825256
+training loss 13500 0.9348061680793762
+validation physics loss 13500 0.7460306882858276
+training loss 13600 0.8839574456214905
+validation physics loss 13600 0.6618809700012207
+training loss 13700 0.9236619472503662
+validation physics loss 13700 0.6227591633796692
+training loss 13800 0.700073778629303
+validation physics loss 13800 0.6936873197555542
+training loss 13900 0.6718047857284546
+validation physics loss 13900 0.7240944504737854
+training loss 14000 0.5633589029312134
+validation physics loss 14000 0.4826827347278595
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.02882569469511509
+2 relative l_2 error 0.06181233748793602
+3 relative l_2 error 0.09568101167678833
+4 relative l_2 error 0.12936420738697052
+5 relative l_2 error 0.16237519681453705
+6 relative l_2 error 0.19444894790649414
+7 relative l_2 error 0.2254352867603302
+8 relative l_2 error 0.255249947309494
+9 relative l_2 error 0.2838490903377533
+10 relative l_2 error 0.31121549010276794
+11 relative l_2 error 0.3373495042324066
+12 relative l_2 error 0.36226364970207214
+13 relative l_2 error 0.3859795033931732
+14 relative l_2 error 0.40852513909339905
+15 relative l_2 error 0.42993226647377014
+16 relative l_2 error 0.4502364695072174
+17 relative l_2 error 0.46947693824768066
+18 relative l_2 error 0.4876938462257385
+19 relative l_2 error 0.5049285888671875
+20 relative l_2 error 0.5212237238883972
+21 relative l_2 error 0.5366219878196716
+22 relative l_2 error 0.5511672496795654
+23 relative l_2 error 0.5649032592773438
+24 relative l_2 error 0.5778733491897583
+25 relative l_2 error 0.590120792388916
+Mean Relative l_2 Error 0.35706213913857937
+training loss 14100 0.6599394083023071
+validation physics loss 14100 0.47133147716522217
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.03209255635738373
+2 relative l_2 error 0.06848516315221786
+3 relative l_2 error 0.10577483475208282
+4 relative l_2 error 0.14285783469676971
+5 relative l_2 error 0.17922493815422058
+6 relative l_2 error 0.21460163593292236
+7 relative l_2 error 0.24883072078227997
+8 relative l_2 error 0.28182169795036316
+9 relative l_2 error 0.3135274350643158
+10 relative l_2 error 0.3439269959926605
+11 relative l_2 error 0.37301912903785706
+12 relative l_2 error 0.40081629157066345
+13 relative l_2 error 0.4273393750190735
+14 relative l_2 error 0.452615886926651
+15 relative l_2 error 0.47667932510375977
+16 relative l_2 error 0.4995671212673187
+17 relative l_2 error 0.5213187336921692
+18 relative l_2 error 0.5419754981994629
+19 relative l_2 error 0.56158047914505
+20 relative l_2 error 0.5801774263381958
+21 relative l_2 error 0.5978111624717712
+22 relative l_2 error 0.6145264506340027
+23 relative l_2 error 0.6303688883781433
+24 relative l_2 error 0.6453844308853149
+25 relative l_2 error 0.6596179604530334
+Mean Relative l_2 Error 0.39655767887830734
+training loss 14200 1.0316729545593262
+validation physics loss 14200 1.2343908548355103
+training loss 14300 0.6673142313957214
+validation physics loss 14300 0.534995973110199
+training loss 14400 0.8518127799034119
+validation physics loss 14400 0.5064100027084351
+training loss 14500 0.8673198819160461
+validation physics loss 14500 0.4690735936164856
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.022991308942437172
+2 relative l_2 error 0.049430299550294876
+3 relative l_2 error 0.07671838253736496
+4 relative l_2 error 0.10395757108926773
+5 relative l_2 error 0.13074423372745514
+6 relative l_2 error 0.1568537950515747
+7 relative l_2 error 0.1821547895669937
+8 relative l_2 error 0.20656950771808624
+9 relative l_2 error 0.23005445301532745
+10 relative l_2 error 0.25258973240852356
+11 relative l_2 error 0.27417024970054626
+12 relative l_2 error 0.294802188873291
+13 relative l_2 error 0.31449729204177856
+14 relative l_2 error 0.33327361941337585
+15 relative l_2 error 0.35115402936935425
+16 relative l_2 error 0.3681632876396179
+17 relative l_2 error 0.384328693151474
+18 relative l_2 error 0.39967936277389526
+19 relative l_2 error 0.4142458140850067
+20 relative l_2 error 0.42805910110473633
+21 relative l_2 error 0.44115158915519714
+22 relative l_2 error 0.45355501770973206
+23 relative l_2 error 0.4653022885322571
+24 relative l_2 error 0.4764268100261688
+25 relative l_2 error 0.48696169257164
+Mean Relative l_2 Error 0.29191340439021585
+training loss 14600 0.4726215898990631
+validation physics loss 14600 0.49589696526527405
+training loss 14700 0.7339419722557068
+validation physics loss 14700 0.4864994287490845
+training loss 14800 0.6990852952003479
+validation physics loss 14800 0.46526363492012024
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.02596014179289341
+2 relative l_2 error 0.05530241131782532
+3 relative l_2 error 0.08546332269906998
+4 relative l_2 error 0.11555929481983185
+5 relative l_2 error 0.14518027007579803
+6 relative l_2 error 0.17409662902355194
+7 relative l_2 error 0.20217423141002655
+8 relative l_2 error 0.22933559119701385
+9 relative l_2 error 0.25553637742996216
+10 relative l_2 error 0.2807549834251404
+11 relative l_2 error 0.3049843907356262
+12 relative l_2 error 0.3282293975353241
+13 relative l_2 error 0.3505028188228607
+14 relative l_2 error 0.3718228042125702
+15 relative l_2 error 0.3922116160392761
+16 relative l_2 error 0.41169533133506775
+17 relative l_2 error 0.43030261993408203
+18 relative l_2 error 0.448063462972641
+19 relative l_2 error 0.4650099277496338
+20 relative l_2 error 0.4811747670173645
+21 relative l_2 error 0.4965916574001312
+22 relative l_2 error 0.5112947821617126
+23 relative l_2 error 0.5253188610076904
+24 relative l_2 error 0.538699209690094
+25 relative l_2 error 0.5514711737632751
+Mean Relative l_2 Error 0.32706944294273854
+training loss 14900 0.6764520406723022
+validation physics loss 14900 0.47046080231666565
+training loss 15000 0.514580488204956
+validation physics loss 15000 0.5875701904296875
+training loss 15100 0.5545785427093506
+validation physics loss 15100 0.48544853925704956
+training loss 15200 0.6934265494346619
+validation physics loss 15200 0.47060340642929077
+training loss 15300 0.6712353229522705
+validation physics loss 15300 0.4725852608680725
+training loss 15400 0.5256620049476624
+validation physics loss 15400 0.44842329621315
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.019284700974822044
+2 relative l_2 error 0.04143794625997543
+3 relative l_2 error 0.06441361457109451
+4 relative l_2 error 0.08744590729475021
+5 relative l_2 error 0.11017937958240509
+6 relative l_2 error 0.13241510093212128
+7 relative l_2 error 0.15403451025485992
+8 relative l_2 error 0.17496733367443085
+9 relative l_2 error 0.19517230987548828
+10 relative l_2 error 0.2146272510290146
+11 relative l_2 error 0.23332266509532928
+12 relative l_2 error 0.2512579560279846
+13 relative l_2 error 0.2684398591518402
+14 relative l_2 error 0.28487980365753174
+15 relative l_2 error 0.3005928099155426
+16 relative l_2 error 0.31559568643569946
+17 relative l_2 error 0.329906702041626
+18 relative l_2 error 0.34354668855667114
+19 relative l_2 error 0.35653814673423767
+20 relative l_2 error 0.3689039647579193
+21 relative l_2 error 0.3806678354740143
+22 relative l_2 error 0.3918541967868805
+23 relative l_2 error 0.4024883210659027
+24 relative l_2 error 0.4125959575176239
+25 relative l_2 error 0.4222033619880676
+Mean Relative l_2 Error 0.25027088038623335
+training loss 15500 0.6447585225105286
+validation physics loss 15500 0.4498579800128937
+training loss 15600 0.48104700446128845
+validation physics loss 15600 0.4746311604976654
+training loss 15700 0.3785410523414612
+validation physics loss 15700 0.4581572115421295
+training loss 15800 0.6339418888092041
+validation physics loss 15800 0.44319549202919006
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.019207272678613663
+2 relative l_2 error 0.04094426706433296
+3 relative l_2 error 0.0634242370724678
+4 relative l_2 error 0.08593174070119858
+5 relative l_2 error 0.10813998430967331
+6 relative l_2 error 0.1298666000366211
+7 relative l_2 error 0.15100251138210297
+8 relative l_2 error 0.17148123681545258
+9 relative l_2 error 0.19126446545124054
+10 relative l_2 error 0.21033239364624023
+11 relative l_2 error 0.2286771833896637
+12 relative l_2 error 0.2462986558675766
+13 relative l_2 error 0.2632010579109192
+14 relative l_2 error 0.2793934941291809
+15 relative l_2 error 0.29488927125930786
+16 relative l_2 error 0.30970439314842224
+17 relative l_2 error 0.3238566815853119
+18 relative l_2 error 0.3373659551143646
+19 relative l_2 error 0.35025325417518616
+20 relative l_2 error 0.3625403940677643
+21 relative l_2 error 0.3742505609989166
+22 relative l_2 error 0.38540753722190857
+23 relative l_2 error 0.39603495597839355
+24 relative l_2 error 0.40615707635879517
+25 relative l_2 error 0.4157988727092743
+Mean Relative l_2 Error 0.24581696212291718
+training loss 15900 0.6585363149642944
+validation physics loss 15900 0.442681223154068
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.019189948216080666
+2 relative l_2 error 0.040802937000989914
+3 relative l_2 error 0.0631294846534729
+4 relative l_2 error 0.08547451347112656
+5 relative l_2 error 0.10751905292272568
+6 relative l_2 error 0.12908737361431122
+7 relative l_2 error 0.15007221698760986
+8 relative l_2 error 0.17040877044200897
+9 relative l_2 error 0.1900598108768463
+10 relative l_2 error 0.20900586247444153
+11 relative l_2 error 0.22723856568336487
+12 relative l_2 error 0.24475784599781036
+13 relative l_2 error 0.2615690529346466
+14 relative l_2 error 0.27768102288246155
+15 relative l_2 error 0.29310598969459534
+16 relative l_2 error 0.3078593909740448
+17 relative l_2 error 0.32195839285850525
+18 relative l_2 error 0.3354220390319824
+19 relative l_2 error 0.3482706546783447
+20 relative l_2 error 0.360525518655777
+21 relative l_2 error 0.3722084164619446
+22 relative l_2 error 0.38334178924560547
+23 relative l_2 error 0.3939482867717743
+24 relative l_2 error 0.40405139327049255
+25 relative l_2 error 0.41367483139038086
+Mean Relative l_2 Error 0.24441452644765377
+training loss 16000 0.5527368783950806
+validation physics loss 16000 0.4424913227558136
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.01564045436680317
+2 relative l_2 error 0.03348105773329735
+3 relative l_2 error 0.05205665901303291
+4 relative l_2 error 0.07073168456554413
+5 relative l_2 error 0.08921892940998077
+6 relative l_2 error 0.10735811293125153
+7 relative l_2 error 0.12505243718624115
+8 relative l_2 error 0.14224232733249664
+9 relative l_2 error 0.15889127552509308
+10 relative l_2 error 0.17497782409191132
+11 relative l_2 error 0.1904907524585724
+12 relative l_2 error 0.20542697608470917
+13 relative l_2 error 0.21978770196437836
+14 relative l_2 error 0.23357859253883362
+15 relative l_2 error 0.24680744111537933
+16 relative l_2 error 0.2594853341579437
+17 relative l_2 error 0.27162620425224304
+18 relative l_2 error 0.2832448184490204
+19 relative l_2 error 0.29435664415359497
+20 relative l_2 error 0.3049788475036621
+21 relative l_2 error 0.3151293396949768
+22 relative l_2 error 0.3248264789581299
+23 relative l_2 error 0.33408957719802856
+24 relative l_2 error 0.34293797612190247
+25 relative l_2 error 0.35139214992523193
+Mean Relative l_2 Error 0.20591238386929034
+training loss 16100 0.7655328512191772
+validation physics loss 16100 0.486585795879364
+training loss 16200 0.8816927671432495
+validation physics loss 16200 0.4449426531791687
+training loss 16300 0.6304249167442322
+validation physics loss 16300 0.4762786030769348
+training loss 16400 0.6614729762077332
+validation physics loss 16400 0.4510125517845154
+training loss 16500 0.5048377513885498
+validation physics loss 16500 0.4371742308139801
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.014455613680183887
+2 relative l_2 error 0.030898025259375572
+3 relative l_2 error 0.04803219065070152
+4 relative l_2 error 0.06527945399284363
+5 relative l_2 error 0.08237690478563309
+6 relative l_2 error 0.09917563199996948
+7 relative l_2 error 0.11558586359024048
+8 relative l_2 error 0.13155151903629303
+9 relative l_2 error 0.14703746140003204
+10 relative l_2 error 0.16202054917812347
+11 relative l_2 error 0.17648828029632568
+12 relative l_2 error 0.19043521583080292
+13 relative l_2 error 0.20386247336864471
+14 relative l_2 error 0.21677421033382416
+15 relative l_2 error 0.229176864027977
+16 relative l_2 error 0.24107861518859863
+17 relative l_2 error 0.25248953700065613
+18 relative l_2 error 0.263421893119812
+19 relative l_2 error 0.2738889455795288
+20 relative l_2 error 0.2839047610759735
+21 relative l_2 error 0.29348403215408325
+22 relative l_2 error 0.30264201760292053
+23 relative l_2 error 0.3113952577114105
+24 relative l_2 error 0.31976041197776794
+25 relative l_2 error 0.3277546763420105
+Mean Relative l_2 Error 0.1913188162073493
+training loss 16600 0.47137582302093506
+validation physics loss 16600 0.43545255064964294
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.015296566300094128
+2 relative l_2 error 0.032584596425294876
+3 relative l_2 error 0.050570614635944366
+4 relative l_2 error 0.06865731626749039
+5 relative l_2 error 0.08657358586788177
+6 relative l_2 error 0.1041685938835144
+7 relative l_2 error 0.12135135382413864
+8 relative l_2 error 0.13806498050689697
+9 relative l_2 error 0.15427277982234955
+10 relative l_2 error 0.1699533760547638
+11 relative l_2 error 0.18509480357170105
+12 relative l_2 error 0.19969315826892853
+13 relative l_2 error 0.21374908089637756
+14 relative l_2 error 0.2272658795118332
+15 relative l_2 error 0.24025021493434906
+16 relative l_2 error 0.25271132588386536
+17 relative l_2 error 0.2646605670452118
+18 relative l_2 error 0.27611029148101807
+19 relative l_2 error 0.28707486391067505
+20 relative l_2 error 0.2975686490535736
+21 relative l_2 error 0.307607501745224
+22 relative l_2 error 0.3172079026699066
+23 relative l_2 error 0.3263865113258362
+24 relative l_2 error 0.3351611793041229
+25 relative l_2 error 0.3435494601726532
+Mean Relative l_2 Error 0.2006234061345458
+training loss 16700 0.5861440896987915
+validation physics loss 16700 0.4339348375797272
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.0152615150436759
+2 relative l_2 error 0.032555945217609406
+3 relative l_2 error 0.050576817244291306
+4 relative l_2 error 0.06871958076953888
+5 relative l_2 error 0.08670990914106369
+6 relative l_2 error 0.10439590364694595
+7 relative l_2 error 0.12168469280004501
+8 relative l_2 error 0.1385175734758377
+9 relative l_2 error 0.1548575907945633
+10 relative l_2 error 0.17068201303482056
+11 relative l_2 error 0.1859789341688156
+12 relative l_2 error 0.2007438689470291
+13 relative l_2 error 0.21497742831707
+14 relative l_2 error 0.22868382930755615
+15 relative l_2 error 0.2418692409992218
+16 relative l_2 error 0.25454339385032654
+17 relative l_2 error 0.2667180001735687
+18 relative l_2 error 0.27840656042099
+19 relative l_2 error 0.289623498916626
+20 relative l_2 error 0.3003833293914795
+21 relative l_2 error 0.31070250272750854
+22 relative l_2 error 0.32059815526008606
+23 relative l_2 error 0.3300882577896118
+24 relative l_2 error 0.3391912579536438
+25 relative l_2 error 0.3479258716106415
+Mean Relative l_2 Error 0.20217582684010268
+training loss 16800 0.5572439432144165
+validation physics loss 16800 0.4318508505821228
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.014795662835240364
+2 relative l_2 error 0.03151218965649605
+3 relative l_2 error 0.04893522337079048
+4 relative l_2 error 0.06648360937833786
+5 relative l_2 error 0.08389192819595337
+6 relative l_2 error 0.1010131761431694
+7 relative l_2 error 0.11775791645050049
+8 relative l_2 error 0.13406941294670105
+9 relative l_2 error 0.1499108523130417
+10 relative l_2 error 0.16526012122631073
+11 relative l_2 error 0.18010547757148743
+12 relative l_2 error 0.19444291293621063
+13 relative l_2 error 0.20827257633209229
+14 relative l_2 error 0.22159786522388458
+15 relative l_2 error 0.23442590236663818
+16 relative l_2 error 0.24676571786403656
+17 relative l_2 error 0.25862789154052734
+18 relative l_2 error 0.27002498507499695
+19 relative l_2 error 0.2809705436229706
+20 relative l_2 error 0.2914790213108063
+21 relative l_2 error 0.301565557718277
+22 relative l_2 error 0.31124651432037354
+23 relative l_2 error 0.32053878903388977
+24 relative l_2 error 0.3294598162174225
+25 relative l_2 error 0.3380277156829834
+Mean Relative l_2 Error 0.19604725517332555
+training loss 16900 0.5306798219680786
+validation physics loss 16900 0.4305262565612793
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.014711374416947365
+2 relative l_2 error 0.031354870647192
+3 relative l_2 error 0.04869581013917923
+4 relative l_2 error 0.06616061925888062
+5 relative l_2 error 0.08348740637302399
+6 relative l_2 error 0.1005309447646141
+7 relative l_2 error 0.11720199882984161
+8 relative l_2 error 0.13344405591487885
+9 relative l_2 error 0.14922168850898743
+10 relative l_2 error 0.16451303660869598
+11 relative l_2 error 0.17930500209331512
+12 relative l_2 error 0.19359180331230164
+13 relative l_2 error 0.20737324655056
+14 relative l_2 error 0.22065186500549316
+15 relative l_2 error 0.23343339562416077
+16 relative l_2 error 0.24572551250457764
+17 relative l_2 error 0.257538765668869
+18 relative l_2 error 0.26888445019721985
+19 relative l_2 error 0.2797757685184479
+20 relative l_2 error 0.29022690653800964
+21 relative l_2 error 0.30025285482406616
+22 relative l_2 error 0.3098694384098053
+23 relative l_2 error 0.319092720746994
+24 relative l_2 error 0.32793933153152466
+25 relative l_2 error 0.3364264667034149
+Mean Relative l_2 Error 0.19517637334764004
+training loss 17000 0.5464430451393127
+validation physics loss 17000 0.4305655062198639
+training loss 17100 0.6741831302642822
+validation physics loss 17100 0.42988258600234985
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.016115481033921242
+2 relative l_2 error 0.03426721319556236
+3 relative l_2 error 0.053140997886657715
+4 relative l_2 error 0.07213965058326721
+5 relative l_2 error 0.09098776429891586
+6 relative l_2 error 0.10953111946582794
+7 relative l_2 error 0.12767505645751953
+8 relative l_2 error 0.14536051452159882
+9 relative l_2 error 0.1625499427318573
+10 relative l_2 error 0.17922012507915497
+11 relative l_2 error 0.19535687565803528
+12 relative l_2 error 0.21095438301563263
+13 relative l_2 error 0.22601211071014404
+14 relative l_2 error 0.2405329793691635
+15 relative l_2 error 0.2545226514339447
+16 relative l_2 error 0.26798945665359497
+17 relative l_2 error 0.28094419836997986
+18 relative l_2 error 0.29339930415153503
+19 relative l_2 error 0.30536800622940063
+20 relative l_2 error 0.3168642222881317
+21 relative l_2 error 0.3279036283493042
+22 relative l_2 error 0.3385024070739746
+23 relative l_2 error 0.34867748618125916
+24 relative l_2 error 0.35844630002975464
+25 relative l_2 error 0.36782699823379517
+Mean Relative l_2 Error 0.21297155492007733
+training loss 17200 0.5123419165611267
+validation physics loss 17200 0.4286094605922699
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.015171942301094532
+2 relative l_2 error 0.03225102648139
+3 relative l_2 error 0.05005064234137535
+4 relative l_2 error 0.06799612194299698
+5 relative l_2 error 0.08582349121570587
+6 relative l_2 error 0.10338471084833145
+7 relative l_2 error 0.12058907002210617
+8 relative l_2 error 0.13737788796424866
+9 relative l_2 error 0.15371398627758026
+10 relative l_2 error 0.16957367956638336
+11 relative l_2 error 0.18494229018688202
+12 relative l_2 error 0.19981305301189423
+13 relative l_2 error 0.21418416500091553
+14 relative l_2 error 0.22805777192115784
+15 relative l_2 error 0.24143873155117035
+16 relative l_2 error 0.2543339729309082
+17 relative l_2 error 0.26675230264663696
+18 relative l_2 error 0.27870461344718933
+19 relative l_2 error 0.29020267724990845
+20 relative l_2 error 0.3012596070766449
+21 relative l_2 error 0.3118891417980194
+22 relative l_2 error 0.322106271982193
+23 relative l_2 error 0.3319258391857147
+24 relative l_2 error 0.3413636386394501
+25 relative l_2 error 0.3504360616207123
+Mean Relative l_2 Error 0.20213370788842439
+training loss 17300 0.7759019732475281
+validation physics loss 17300 0.42753198742866516
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.015202367678284645
+2 relative l_2 error 0.0323064960539341
+3 relative l_2 error 0.05012890696525574
+4 relative l_2 error 0.06809362024068832
+5 relative l_2 error 0.08593394607305527
+6 relative l_2 error 0.10350022464990616
+7 relative l_2 error 0.12070024013519287
+8 relative l_2 error 0.1374763548374176
+9 relative l_2 error 0.15379229187965393
+10 relative l_2 error 0.1696256697177887
+11 relative l_2 error 0.18496282398700714
+12 relative l_2 error 0.1997983604669571
+13 relative l_2 error 0.21413174271583557
+14 relative l_2 error 0.2279658317565918
+15 relative l_2 error 0.2413066178560257
+16 relative l_2 error 0.2541625201702118
+17 relative l_2 error 0.2665436267852783
+18 relative l_2 error 0.27846118807792664
+19 relative l_2 error 0.2899281978607178
+20 relative l_2 error 0.30095815658569336
+21 relative l_2 error 0.3115657866001129
+22 relative l_2 error 0.32176753878593445
+23 relative l_2 error 0.3315797746181488
+24 relative l_2 error 0.3410191237926483
+25 relative l_2 error 0.35010358691215515
+Mean Relative l_2 Error 0.20204059980809688
+training loss 17400 0.6339640617370605
+validation physics loss 17400 0.42621925473213196
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.011903299950063229
+2 relative l_2 error 0.025462735444307327
+3 relative l_2 error 0.039679743349552155
+4 relative l_2 error 0.054050978273153305
+5 relative l_2 error 0.06834796816110611
+6 relative l_2 error 0.08244331181049347
+7 relative l_2 error 0.09625987708568573
+8 relative l_2 error 0.10974764823913574
+9 relative l_2 error 0.1228751465678215
+10 relative l_2 error 0.13562171161174774
+11 relative l_2 error 0.1479744017124176
+12 relative l_2 error 0.1599269062280655
+13 relative l_2 error 0.171477273106575
+14 relative l_2 error 0.18262624740600586
+15 relative l_2 error 0.19337694346904755
+16 relative l_2 error 0.20373408496379852
+17 relative l_2 error 0.21370434761047363
+18 relative l_2 error 0.22329579293727875
+19 relative l_2 error 0.23251783847808838
+20 relative l_2 error 0.24138061702251434
+21 relative l_2 error 0.24989524483680725
+22 relative l_2 error 0.2580728232860565
+23 relative l_2 error 0.265925794839859
+24 relative l_2 error 0.2734667956829071
+25 relative l_2 error 0.28070852160453796
+Mean Relative l_2 Error 0.16177904214709998
+training loss 17500 0.630953311920166
+validation physics loss 17500 0.42681053280830383
+training loss 17600 0.5765963792800903
+validation physics loss 17600 0.4258825480937958
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.01313044410198927
+2 relative l_2 error 0.02799028716981411
+3 relative l_2 error 0.04355001449584961
+4 relative l_2 error 0.059286024421453476
+5 relative l_2 error 0.07495757937431335
+6 relative l_2 error 0.09042944759130478
+7 relative l_2 error 0.10561883449554443
+8 relative l_2 error 0.12047189474105835
+9 relative l_2 error 0.13495340943336487
+10 relative l_2 error 0.1490413248538971
+11 relative l_2 error 0.162722647190094
+12 relative l_2 error 0.1759907603263855
+13 relative l_2 error 0.18884384632110596
+14 relative l_2 error 0.20128226280212402
+15 relative l_2 error 0.21330972015857697
+16 relative l_2 error 0.22493243217468262
+17 relative l_2 error 0.23615841567516327
+18 relative l_2 error 0.24699611961841583
+19 relative l_2 error 0.25745508074760437
+20 relative l_2 error 0.26754698157310486
+21 relative l_2 error 0.27728432416915894
+22 relative l_2 error 0.28667977452278137
+23 relative l_2 error 0.2957472801208496
+24 relative l_2 error 0.3045012056827545
+25 relative l_2 error 0.312956303358078
+Mean Relative l_2 Error 0.17887345660477877
+training loss 17700 0.6225001811981201
+validation physics loss 17700 0.42504358291625977
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.013341933488845825
+2 relative l_2 error 0.028352437540888786
+3 relative l_2 error 0.04403414577245712
+4 relative l_2 error 0.05986691638827324
+5 relative l_2 error 0.07561378926038742
+6 relative l_2 error 0.09114155918359756
+7 relative l_2 error 0.10636887699365616
+8 relative l_2 error 0.12124282121658325
+9 relative l_2 error 0.13572899997234344
+10 relative l_2 error 0.14980566501617432
+11 relative l_2 error 0.16345956921577454
+12 relative l_2 error 0.1766834557056427
+13 relative l_2 error 0.1894758939743042
+14 relative l_2 error 0.20183716714382172
+15 relative l_2 error 0.2137707769870758
+16 relative l_2 error 0.2252821922302246
+17 relative l_2 error 0.23637865483760834
+18 relative l_2 error 0.24706816673278809
+19 relative l_2 error 0.2573605477809906
+20 relative l_2 error 0.2672666013240814
+21 relative l_2 error 0.2767976224422455
+22 relative l_2 error 0.2859659790992737
+23 relative l_2 error 0.2947848439216614
+24 relative l_2 error 0.3032675087451935
+25 relative l_2 error 0.31142765283584595
+Mean Relative l_2 Error 0.17905295111238956
+training loss 17800 0.8739606142044067
+validation physics loss 17800 0.4261834919452667
+training loss 17900 0.6878278851509094
+validation physics loss 17900 0.425272673368454
+training loss 18000 0.8520669937133789
+validation physics loss 18000 0.42397943139076233
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.012414530850946903
+2 relative l_2 error 0.02644978277385235
+3 relative l_2 error 0.041166797280311584
+4 relative l_2 error 0.05606333166360855
+5 relative l_2 error 0.07091330736875534
+6 relative l_2 error 0.08558612316846848
+7 relative l_2 error 0.10000183433294296
+8 relative l_2 error 0.11410833895206451
+9 relative l_2 error 0.1278715878725052
+10 relative l_2 error 0.14126895368099213
+11 relative l_2 error 0.1542866975069046
+12 relative l_2 error 0.16691648960113525
+13 relative l_2 error 0.1791553944349289
+14 relative l_2 error 0.19100414216518402
+15 relative l_2 error 0.20246510207653046
+16 relative l_2 error 0.21354253590106964
+17 relative l_2 error 0.22424247860908508
+18 relative l_2 error 0.234572172164917
+19 relative l_2 error 0.24453984200954437
+20 relative l_2 error 0.2541557848453522
+21 relative l_2 error 0.2634309232234955
+22 relative l_2 error 0.27237680554389954
+23 relative l_2 error 0.28100451827049255
+24 relative l_2 error 0.28932690620422363
+25 relative l_2 error 0.29735660552978516
+Mean Relative l_2 Error 0.16976883944123983
+training loss 18100 0.556053102016449
+validation physics loss 18100 0.42275935411453247
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.012208218686282635
+2 relative l_2 error 0.025966515764594078
+3 relative l_2 error 0.040386613458395004
+4 relative l_2 error 0.05497661232948303
+5 relative l_2 error 0.06951304525136948
+6 relative l_2 error 0.08386781066656113
+7 relative l_2 error 0.09796164929866791
+8 relative l_2 error 0.11174314469099045
+9 relative l_2 error 0.12517888844013214
+10 relative l_2 error 0.13824692368507385
+11 relative l_2 error 0.1509331464767456
+12 relative l_2 error 0.16322970390319824
+13 relative l_2 error 0.17513374984264374
+14 relative l_2 error 0.18664591014385223
+15 relative l_2 error 0.19776912033557892
+16 relative l_2 error 0.20850788056850433
+17 relative l_2 error 0.21886835992336273
+18 relative l_2 error 0.22885826230049133
+19 relative l_2 error 0.23848605155944824
+20 relative l_2 error 0.24776144325733185
+21 relative l_2 error 0.25669580698013306
+22 relative l_2 error 0.2653009593486786
+23 relative l_2 error 0.2735883295536041
+24 relative l_2 error 0.28157028555870056
+25 relative l_2 error 0.28926002979278564
+Mean Relative l_2 Error 0.16570633847266436
+training loss 18200 0.8253197073936462
+validation physics loss 18200 0.4233859181404114
+training loss 18300 0.7344928979873657
+validation physics loss 18300 0.4224047064781189
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.012000690214335918
+2 relative l_2 error 0.02553766407072544
+3 relative l_2 error 0.03973476216197014
+4 relative l_2 error 0.05410657078027725
+5 relative l_2 error 0.06843354552984238
+6 relative l_2 error 0.08258973807096481
+7 relative l_2 error 0.09649714082479477
+8 relative l_2 error 0.11010587215423584
+9 relative l_2 error 0.12338292598724365
+10 relative l_2 error 0.1363062709569931
+11 relative l_2 error 0.14886049926280975
+12 relative l_2 error 0.1610371321439743
+13 relative l_2 error 0.17283277213573456
+14 relative l_2 error 0.1842474490404129
+15 relative l_2 error 0.19528332352638245
+16 relative l_2 error 0.20594406127929688
+17 relative l_2 error 0.216234490275383
+18 relative l_2 error 0.22616086900234222
+19 relative l_2 error 0.2357311248779297
+20 relative l_2 error 0.24495498836040497
+21 relative l_2 error 0.25384265184402466
+22 relative l_2 error 0.2624046206474304
+23 relative l_2 error 0.27065131068229675
+24 relative l_2 error 0.2785945534706116
+25 relative l_2 error 0.2862466871738434
+Mean Relative l_2 Error 0.16366886857897042
+training loss 18400 0.595935046672821
+validation physics loss 18400 0.4217768907546997
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.012610048055648804
+2 relative l_2 error 0.026756739243865013
+3 relative l_2 error 0.0415651760995388
+4 relative l_2 error 0.05654129013419151
+5 relative l_2 error 0.07146056741476059
+6 relative l_2 error 0.08619504421949387
+7 relative l_2 error 0.10066751390695572
+8 relative l_2 error 0.11482638120651245
+9 relative l_2 error 0.1286381483078003
+10 relative l_2 error 0.14208093285560608
+11 relative l_2 error 0.15514078736305237
+12 relative l_2 error 0.16780918836593628
+13 relative l_2 error 0.1800830066204071
+14 relative l_2 error 0.19196286797523499
+15 relative l_2 error 0.20345138013362885
+16 relative l_2 error 0.21455252170562744
+17 relative l_2 error 0.2252715677022934
+18 relative l_2 error 0.23561547696590424
+19 relative l_2 error 0.24559319019317627
+20 relative l_2 error 0.255215048789978
+21 relative l_2 error 0.26449137926101685
+22 relative l_2 error 0.27343329787254333
+23 relative l_2 error 0.2820524275302887
+24 relative l_2 error 0.29036080837249756
+25 relative l_2 error 0.29837092757225037
+Mean Relative l_2 Error 0.17058982871472836
+training loss 18500 0.49305960536003113
+validation physics loss 18500 0.4213032126426697
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.01203948725014925
+2 relative l_2 error 0.025565359741449356
+3 relative l_2 error 0.03974044695496559
+4 relative l_2 error 0.05408480763435364
+5 relative l_2 error 0.06838009506464005
+6 relative l_2 error 0.08250368386507034
+7 relative l_2 error 0.09638023376464844
+8 relative l_2 error 0.109959177672863
+9 relative l_2 error 0.1232074648141861
+10 relative l_2 error 0.13610368967056274
+11 relative l_2 error 0.1486331969499588
+12 relative l_2 error 0.16078703105449677
+13 relative l_2 error 0.1725621372461319
+14 relative l_2 error 0.18395839631557465
+15 relative l_2 error 0.19497738778591156
+16 relative l_2 error 0.2056231051683426
+17 relative l_2 error 0.2159002274274826
+18 relative l_2 error 0.2258152961730957
+19 relative l_2 error 0.23537634313106537
+20 relative l_2 error 0.24459326267242432
+21 relative l_2 error 0.2534761428833008
+22 relative l_2 error 0.2620351314544678
+23 relative l_2 error 0.270281583070755
+24 relative l_2 error 0.27822715044021606
+25 relative l_2 error 0.2858836054801941
+Mean Relative l_2 Error 0.16344377774745225
+training loss 18600 0.610722005367279
+validation physics loss 18600 0.4220423400402069
+training loss 18700 0.7533201575279236
+validation physics loss 18700 0.42048701643943787
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.011122243478894234
+2 relative l_2 error 0.023692380636930466
+3 relative l_2 error 0.0368976928293705
+4 relative l_2 error 0.05027890205383301
+5 relative l_2 error 0.06362750381231308
+6 relative l_2 error 0.07682623714208603
+7 relative l_2 error 0.0898030549287796
+8 relative l_2 error 0.1025114580988884
+9 relative l_2 error 0.11492041498422623
+10 relative l_2 error 0.1270095556974411
+11 relative l_2 error 0.13876605033874512
+12 relative l_2 error 0.15018121898174286
+13 relative l_2 error 0.16125214099884033
+14 relative l_2 error 0.1719788759946823
+15 relative l_2 error 0.18236277997493744
+16 relative l_2 error 0.192407488822937
+17 relative l_2 error 0.2021177113056183
+18 relative l_2 error 0.2114993780851364
+19 relative l_2 error 0.2205599844455719
+20 relative l_2 error 0.22930891811847687
+21 relative l_2 error 0.2377559244632721
+22 relative l_2 error 0.24591131508350372
+23 relative l_2 error 0.2537856101989746
+24 relative l_2 error 0.2613900601863861
+25 relative l_2 error 0.2687365412712097
+Mean Relative l_2 Error 0.1529881376773119
+training loss 18800 0.6523851156234741
+validation physics loss 18800 0.42077574133872986
+training loss 18900 0.7200239896774292
+validation physics loss 18900 0.42009201645851135
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.011107387952506542
+2 relative l_2 error 0.023652778938412666
+3 relative l_2 error 0.036826737225055695
+4 relative l_2 error 0.05017581209540367
+5 relative l_2 error 0.06349394470453262
+6 relative l_2 error 0.07666487991809845
+7 relative l_2 error 0.0896170511841774
+8 relative l_2 error 0.10230384021997452
+9 relative l_2 error 0.11469433456659317
+10 relative l_2 error 0.12676846981048584
+11 relative l_2 error 0.1385122537612915
+12 relative l_2 error 0.14991748332977295
+13 relative l_2 error 0.16098040342330933
+14 relative l_2 error 0.17170123755931854
+15 relative l_2 error 0.1820814460515976
+16 relative l_2 error 0.19212427735328674
+17 relative l_2 error 0.20183387398719788
+18 relative l_2 error 0.21121540665626526
+19 relative l_2 error 0.22027592360973358
+20 relative l_2 error 0.22902479767799377
+21 relative l_2 error 0.23747144639492035
+22 relative l_2 error 0.24562552571296692
+23 relative l_2 error 0.2534973919391632
+24 relative l_2 error 0.2610977292060852
+25 relative l_2 error 0.2684383690357208
+Mean Relative l_2 Error 0.15276411209255458
+training loss 19000 0.6882645487785339
+validation physics loss 19000 0.4200511574745178
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.010669275186955929
+2 relative l_2 error 0.02274782583117485
+3 relative l_2 error 0.03545656427741051
+4 relative l_2 error 0.04834701120853424
+5 relative l_2 error 0.06121585890650749
+6 relative l_2 error 0.07394834607839584
+7 relative l_2 error 0.08647369593381882
+8 relative l_2 error 0.09874585270881653
+9 relative l_2 error 0.1107344850897789
+10 relative l_2 error 0.12241988629102707
+11 relative l_2 error 0.13378827273845673
+12 relative l_2 error 0.14483153820037842
+13 relative l_2 error 0.1555454283952713
+14 relative l_2 error 0.16592977941036224
+15 relative l_2 error 0.17598624527454376
+16 relative l_2 error 0.1857176423072815
+17 relative l_2 error 0.19512765109539032
+18 relative l_2 error 0.2042212039232254
+19 relative l_2 error 0.21300506591796875
+20 relative l_2 error 0.22148780524730682
+21 relative l_2 error 0.22967849671840668
+22 relative l_2 error 0.23758654296398163
+23 relative l_2 error 0.2452220767736435
+24 relative l_2 error 0.25259509682655334
+25 relative l_2 error 0.25971683859825134
+Mean Relative l_2 Error 0.1476479394361377
+training loss 19100 0.44570639729499817
+validation physics loss 19100 0.419618159532547
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.011436271481215954
+2 relative l_2 error 0.02433992363512516
+3 relative l_2 error 0.03790103271603584
+4 relative l_2 error 0.05165526270866394
+5 relative l_2 error 0.0653914138674736
+6 relative l_2 error 0.07898949831724167
+7 relative l_2 error 0.09237460047006607
+8 relative l_2 error 0.10549888759851456
+9 relative l_2 error 0.11833091825246811
+10 relative l_2 error 0.13084980845451355
+11 relative l_2 error 0.14304137229919434
+12 relative l_2 error 0.15489701926708221
+13 relative l_2 error 0.16641227900981903
+14 relative l_2 error 0.17758698761463165
+15 relative l_2 error 0.18842315673828125
+16 relative l_2 error 0.19892339408397675
+17 relative l_2 error 0.20909123122692108
+18 relative l_2 error 0.21893207728862762
+19 relative l_2 error 0.22845359146595
+20 relative l_2 error 0.23766446113586426
+21 relative l_2 error 0.24657440185546875
+22 relative l_2 error 0.25519314408302307
+23 relative l_2 error 0.2635311186313629
+24 relative l_2 error 0.2715993821620941
+25 relative l_2 error 0.27940940856933594
+Mean Relative l_2 Error 0.15826002571731806
+training loss 19200 0.62162846326828
+validation physics loss 19200 0.4191579520702362
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.012185806408524513
+2 relative l_2 error 0.025850623846054077
+3 relative l_2 error 0.0401783362030983
+4 relative l_2 error 0.05468994379043579
+5 relative l_2 error 0.06916675716638565
+6 relative l_2 error 0.08348464220762253
+7 relative l_2 error 0.09756673872470856
+8 relative l_2 error 0.11136370897293091
+9 relative l_2 error 0.12484221905469894
+10 relative l_2 error 0.13798053562641144
+11 relative l_2 error 0.15076397359371185
+12 relative l_2 error 0.16318394243717194
+13 relative l_2 error 0.17523661255836487
+14 relative l_2 error 0.18692244589328766
+15 relative l_2 error 0.19824282824993134
+16 relative l_2 error 0.20920081436634064
+17 relative l_2 error 0.2198011428117752
+18 relative l_2 error 0.2300497144460678
+19 relative l_2 error 0.2399546205997467
+20 relative l_2 error 0.24952511489391327
+21 relative l_2 error 0.25877097249031067
+22 relative l_2 error 0.26770272850990295
+23 relative l_2 error 0.2763311266899109
+24 relative l_2 error 0.2846677005290985
+25 relative l_2 error 0.2927245795726776
+Mean Relative l_2 Error 0.16641550518572332
+training loss 19300 0.5193557143211365
+validation physics loss 19300 0.41880181431770325
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.01101995725184679
+2 relative l_2 error 0.02344602905213833
+3 relative l_2 error 0.036504995077848434
+4 relative l_2 error 0.04974422603845596
+5 relative l_2 error 0.06295865774154663
+6 relative l_2 error 0.07603269070386887
+7 relative l_2 error 0.08889460563659668
+8 relative l_2 error 0.10149790346622467
+9 relative l_2 error 0.11381204426288605
+10 relative l_2 error 0.12581664323806763
+11 relative l_2 error 0.1374979019165039
+12 relative l_2 error 0.1488475799560547
+13 relative l_2 error 0.15986156463623047
+14 relative l_2 error 0.1705399602651596
+15 relative l_2 error 0.1808842420578003
+16 relative l_2 error 0.19089722633361816
+17 relative l_2 error 0.20058272778987885
+18 relative l_2 error 0.20994582772254944
+19 relative l_2 error 0.21899352967739105
+20 relative l_2 error 0.22773461043834686
+21 relative l_2 error 0.23617874085903168
+22 relative l_2 error 0.24433539807796478
+23 relative l_2 error 0.2522145211696625
+24 relative l_2 error 0.2598268687725067
+25 relative l_2 error 0.267183780670166
+Mean Relative l_2 Error 0.1518100893124938
+training loss 19400 0.6003655195236206
+validation physics loss 19400 0.41861894726753235
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.010685286484658718
+2 relative l_2 error 0.022750994190573692
+3 relative l_2 error 0.03544206917285919
+4 relative l_2 error 0.04831153154373169
+5 relative l_2 error 0.061156559735536575
+6 relative l_2 error 0.07386260479688644
+7 relative l_2 error 0.08635865896940231
+8 relative l_2 error 0.09859950840473175
+9 relative l_2 error 0.11055491119623184
+10 relative l_2 error 0.12220489978790283
+11 relative l_2 error 0.13353580236434937
+12 relative l_2 error 0.1445397585630417
+13 relative l_2 error 0.1552126705646515
+14 relative l_2 error 0.16555452346801758
+15 relative l_2 error 0.17556670308113098
+16 relative l_2 error 0.18525202572345734
+17 relative l_2 error 0.19461429119110107
+18 relative l_2 error 0.20365861058235168
+19 relative l_2 error 0.21239161491394043
+20 relative l_2 error 0.22082185745239258
+21 relative l_2 error 0.2289588451385498
+22 relative l_2 error 0.23681198060512543
+23 relative l_2 error 0.24439096450805664
+24 relative l_2 error 0.2517063319683075
+25 relative l_2 error 0.2587694525718689
+Mean Relative l_2 Error 0.1472684982791543
+training loss 19500 0.6018871665000916
+validation physics loss 19500 0.41846463084220886
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.011377721093595028
+2 relative l_2 error 0.024175340309739113
+3 relative l_2 error 0.03761845454573631
+4 relative l_2 error 0.05124559625983238
+5 relative l_2 error 0.06484615057706833
+6 relative l_2 error 0.07830077409744263
+7 relative l_2 error 0.09153541177511215
+8 relative l_2 error 0.10450243949890137
+9 relative l_2 error 0.11716977506875992
+10 relative l_2 error 0.12951627373695374
+11 relative l_2 error 0.14152748882770538
+12 relative l_2 error 0.15319493412971497
+13 relative l_2 error 0.1645144671201706
+14 relative l_2 error 0.17548619210720062
+15 relative l_2 error 0.1861109584569931
+16 relative l_2 error 0.19639186561107635
+17 relative l_2 error 0.20633292198181152
+18 relative l_2 error 0.2159394770860672
+19 relative l_2 error 0.22521881759166718
+20 relative l_2 error 0.23417985439300537
+21 relative l_2 error 0.2428322285413742
+22 relative l_2 error 0.2511855959892273
+23 relative l_2 error 0.25925010442733765
+24 relative l_2 error 0.2670367658138275
+25 relative l_2 error 0.274556964635849
+Mean Relative l_2 Error 0.15616186294704676
+training loss 19600 0.7228811383247375
+validation physics loss 19600 0.4186510145664215
+training loss 19700 0.4365902245044708
+validation physics loss 19700 0.41853395104408264
+training loss 19800 0.6996643543243408
+validation physics loss 19800 0.4183470606803894
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.01122587826102972
+2 relative l_2 error 0.023862948641180992
+3 relative l_2 error 0.03714142367243767
+4 relative l_2 error 0.05060407519340515
+5 relative l_2 error 0.06404254585504532
+6 relative l_2 error 0.07733932882547379
+7 relative l_2 error 0.0904209241271019
+8 relative l_2 error 0.10324032604694366
+9 relative l_2 error 0.11576604098081589
+10 relative l_2 error 0.12797726690769196
+11 relative l_2 error 0.13985970616340637
+12 relative l_2 error 0.1514052003622055
+13 relative l_2 error 0.16260948777198792
+14 relative l_2 error 0.17347268760204315
+15 relative l_2 error 0.18399575352668762
+16 relative l_2 error 0.19418172538280487
+17 relative l_2 error 0.2040344923734665
+18 relative l_2 error 0.21355949342250824
+19 relative l_2 error 0.2227638065814972
+20 relative l_2 error 0.2316562980413437
+21 relative l_2 error 0.24024668335914612
+22 relative l_2 error 0.24854455888271332
+23 relative l_2 error 0.2565600872039795
+24 relative l_2 error 0.2643043100833893
+25 relative l_2 error 0.27178868651390076
+Mean Relative l_2 Error 0.15442414943128824
+training loss 19900 0.5122805237770081
+validation physics loss 19900 0.4182930588722229
+-----------SAVING NEW MODEL-----------
+_________Training__________
+1 relative l_2 error 0.010948441922664642
+2 relative l_2 error 0.023291394114494324
+3 relative l_2 error 0.036266595125198364
+4 relative l_2 error 0.04942343384027481
+5 relative l_2 error 0.06255687773227692
+6 relative l_2 error 0.0755513533949852
+7 relative l_2 error 0.08833450078964233
+8 relative l_2 error 0.1008601114153862
+9 relative l_2 error 0.11309734731912613
+10 relative l_2 error 0.12502585351467133
+11 relative l_2 error 0.13663144409656525
+12 relative l_2 error 0.1479061096906662
+13 relative l_2 error 0.15884557366371155
+14 relative l_2 error 0.16944997012615204
+15 relative l_2 error 0.17972023785114288
+16 relative l_2 error 0.18965928256511688
+17 relative l_2 error 0.19927090406417847
+18 relative l_2 error 0.2085602730512619
+19 relative l_2 error 0.21753421425819397
+20 relative l_2 error 0.22620134055614471
+21 relative l_2 error 0.23457126319408417
+22 relative l_2 error 0.24265332520008087
+23 relative l_2 error 0.2504575252532959
+24 relative l_2 error 0.25799453258514404
+25 relative l_2 error 0.2652757167816162
+Mean Relative l_2 Error 0.15080350488424302
+training loss 20000 0.7006244659423828
+validation physics loss 20000 0.41831231117248535
+----------------------------FINAL_RESULT-----------------------------
+_________Training__________
+1 relative l_2 error 0.010948441922664642
+2 relative l_2 error 0.023291394114494324
+3 relative l_2 error 0.036266595125198364
+4 relative l_2 error 0.04942343384027481
+5 relative l_2 error 0.06255687773227692
+6 relative l_2 error 0.0755513533949852
+7 relative l_2 error 0.08833450078964233
+8 relative l_2 error 0.1008601114153862
+9 relative l_2 error 0.11309734731912613
+10 relative l_2 error 0.12502585351467133
+11 relative l_2 error 0.13663144409656525
+12 relative l_2 error 0.1479061096906662
+13 relative l_2 error 0.15884557366371155
+14 relative l_2 error 0.16944997012615204
+15 relative l_2 error 0.17972023785114288
+16 relative l_2 error 0.18965928256511688
+17 relative l_2 error 0.19927090406417847
+18 relative l_2 error 0.2085602730512619
+19 relative l_2 error 0.21753421425819397
+20 relative l_2 error 0.22620134055614471
+21 relative l_2 error 0.23457126319408417
+22 relative l_2 error 0.24265332520008087
+23 relative l_2 error 0.2504575252532959
+24 relative l_2 error 0.25799453258514404
+25 relative l_2 error 0.2652757167816162
+Mean Relative l_2 Error 0.15080350488424302
+FINAL_TIME_8_9_21_12_41

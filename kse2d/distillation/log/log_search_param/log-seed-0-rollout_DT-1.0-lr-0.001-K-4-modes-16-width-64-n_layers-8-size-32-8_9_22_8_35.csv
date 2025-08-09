@@ -1,0 +1,40 @@
+--------args----------
+data_path: ../data/
+model_path: ../pretrain/model/net-seed-0-K-4-modes-32-width-64-n_layers-8-output_dim-100-size-64-8_9_20_37_37.pt
+file_name: search_param
+data_name: multi
+device: cuda:3
+seed: 0
+modes: 16
+width: 64
+n_layers: 8
+output_dim: 50
+size: 64
+student_size: 32
+model_name: net-seed-0-K-4-modes-16-width-64-n_layers-8-size-32-8_9_22_8_35
+K: 4
+batch_size: 10
+rollout_DT: 1.0
+rollout_DT_teacher: 0.2
+lr: 0.001
+weight_decay: 0.0
+num_iterations: 2000
+--------args----------
+
+torch.Size([10, 32, 32, 51])
+training loss 0 0.6685166954994202
+_________Training__________
+1 relative l_2 error 0.6459280848503113
+2 relative l_2 error 0.8828861117362976
+3 relative l_2 error 1.1262294054031372
+4 relative l_2 error 1.355263590812683
+5 relative l_2 error 1.556309700012207
+Mean Relative l_2 Error 1.1133233785629273
+training loss 10 0.20713743567466736
+_________Training__________
+1 relative l_2 error 0.27494117617607117
+2 relative l_2 error 0.5143502354621887
+3 relative l_2 error 0.7419973015785217
+4 relative l_2 error 0.9459865689277649
+5 relative l_2 error 1.127694010734558
+Mean Relative l_2 Error 0.7209938585758209
