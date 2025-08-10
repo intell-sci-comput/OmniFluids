@@ -1,0 +1,17 @@
+{
+  "device": "cuda:2",
+  "seed": 2,
+  "s": 1024,
+  "sub": 4,
+  "max_frequency": 10,
+  "amplitude": 0.5,
+  "N": 2,
+  "re": [
+    2000,
+    2000
+  ],
+  "name": "val2000",
+  "T": 10.0,
+  "dt": 0.0001,
+  "record_ratio": 10
+}
